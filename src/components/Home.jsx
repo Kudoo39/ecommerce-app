@@ -7,7 +7,7 @@ const Home = () => (
     <div className="home_container">
       <article className="banhmi_item">
         <img src={img1} alt="photo about banhmi" />
-        <h5>Banh Mi</h5>
+        <h3>Banh Mi</h3>
         <p>
           Seasoned seitan, cucumber, radish, carrot, soy, coriander, onion,
           house sauce, chili, mayonnaise
@@ -15,7 +15,7 @@ const Home = () => (
       </article>
       <article className="banhmi_item">
         <img src={img1} alt="photo about banhmi" />
-        <h5>Banh Mi</h5>
+        <h3>Banh Mi</h3>
         <p>
           Seasoned seitan, cucumber, radish, carrot, soy, coriander, onion,
           house sauce, chili, mayonnaise
@@ -23,7 +23,7 @@ const Home = () => (
       </article>
       <article className="banhmi_item">
         <img src={img1} alt="photo about banhmi" />
-        <h5>Banh Mi</h5>
+        <h3>Banh Mi</h3>
         <p>
           Seasoned seitan, cucumber, radish, carrot, soy, coriander, onion,
           house sauce, chili, mayonnaise

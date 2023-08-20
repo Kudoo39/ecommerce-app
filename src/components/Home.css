@@ -1,16 +1,20 @@
 .home_container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  width: 70%;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .banhmi_item {
-  padding: 1.1rem;
-  border-radius: 2rem;
-  border-bottom: 1px solid black;
-  transition: var(--transition);
+  border-radius: 1rem;
+  border: 1px solid black;
+  overflow: hidden;
+  width: 90%;
+  
 }
 
 .banhmi_item img {
   width: 100%;
-  height: auto;
+  max-height: 100%;
 }
