@@ -14,8 +14,7 @@ const Feedback = () => {
               <p>
                 Really great tasting breads at a very affordable price. The
                 location is comfortably on the edge of the city center and the
-                interiors are small and cozy. The service was also very polite
-                and fast!
+                interiors are small and cozy. The service was also very polite!
               </p>
             </div>
           </div>
@@ -23,17 +22,10 @@ const Feedback = () => {
         <Carousel.Item>
           <div className="carousel-content">
             <div className="bordered-box">
-              <h5>Second slide label</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-          </div>
-        </Carousel.Item>
-        <Carousel.Item>
-          <div className="carousel-content">
-            <div className="bordered-box">
-              <h5>Third slide label</h5>
+              <h5>Elisa S.</h5>
               <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                Crisp baguette and perfect toppings. I could eat it every day!
+                You should also try the Vietnamese iced coffee. ❤
               </p>
             </div>
           </div>
@@ -41,9 +33,11 @@ const Feedback = () => {
         <Carousel.Item>
           <div className="carousel-content">
             <div className="bordered-box">
-              <h5>Fourth slide label</h5>
+              <h5>Jari H.</h5>
               <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                Great rolls, just the right amount of heat and spices (of
+                course, you can get exactly what you want by asking. Be prepared
+                to wait in line.
               </p>
             </div>
           </div>
@@ -51,9 +45,22 @@ const Feedback = () => {
         <Carousel.Item>
           <div className="carousel-content">
             <div className="bordered-box">
-              <h5>Fifth slide label</h5>
+              <h5>The Originals</h5>
               <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                It's been almost every day since I found it, if you want
+                authentic vietnamese food, go there. I love Bánh mì and freshly
+                baked bread. (I'm walking there right now to get the feed)
+              </p>
+            </div>
+          </div>
+        </Carousel.Item>
+        <Carousel.Item>
+          <div className="carousel-content">
+            <div className="bordered-box">
+              <h5>Kalypso F.</h5>
+              <p>
+                Excellent Bahn mi, delicious flavors and friendly staff! ! Never
+                disappoints! Highly recommended!
               </p>
             </div>
           </div>
