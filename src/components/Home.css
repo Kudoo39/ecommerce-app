@@ -13,6 +13,10 @@
   width: 90%;
 }
 
+#owner {
+  height: 225px;
+}
+
 .banhmi_item h3 {
   padding-left: 1rem;
 }
