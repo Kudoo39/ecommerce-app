@@ -1,0 +1,16 @@
+.home_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.banhmi_item {
+  padding: 1.1rem;
+  border-radius: 2rem;
+  border-bottom: 1px solid black;
+  transition: var(--transition);
+}
+
+.banhmi_item img {
+  width: 100%;
+  height: auto;
+}
