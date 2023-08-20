@@ -1,0 +1,12 @@
+.carousel-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.bordered-box {
+  border: 2px solid black;
+  padding: 20px;
+  text-align: center;
+}

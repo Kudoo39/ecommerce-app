@@ -1,8 +1,9 @@
 footer {
   background: black;
-  padding: 3rem 0;
+  padding: 7rem 0;
   margin-top: 4rem;
   text-align: center;
+  width: 100%;
 }
 
 footer a {
@@ -10,10 +11,10 @@ footer a {
 }
 
 .address {
-  margin-top: 0.5rem;
   color: white;
   text-align: left;
   margin-left: 350px;
+  margin-top: -0px;
   font-size: 22px;
   font-family: "Poppins", sans-serif;
 }
@@ -41,7 +42,7 @@ footer a {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  margin-top: -170px;
+  margin-top: -260px;
 }
 
 .footer_socials a {
