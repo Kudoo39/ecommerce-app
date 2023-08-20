@@ -10,6 +10,8 @@ const Footer = () => {
       <a href="" className="footer_name">
         SAIGON SANDWICH BAKERY
       </a>
+      <h3 className="address">Address</h3>
+      <p className="address">Aninkaistenkatu 16, <br />20100 Turku, Finland</p>
       <ul className="links">
         <li>
           <a href=""></a>
@@ -40,6 +42,9 @@ const Footer = () => {
         >
           <MdOutlineLocalShipping />
         </a>
+      </div>
+      <div className="copyright">
+        <small>&copy; 2023 - Saigon Sandwich Bakery</small>
       </div>
     </footer>
   );
