@@ -1,5 +1,6 @@
 .header-container {
   position: relative;
+  margin-bottom: 4rem;
 }
 
 .text-content {
@@ -11,11 +12,8 @@
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   color: white;
-  text-shadow:
-  -1px -1px 0 #000,
-  1px -1px 0 #000,
-  -1px 1px 0 #000,
-  1px 1px 0 #000;  
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .header-image {

@@ -12,7 +12,7 @@ const Home = () => (
         <h3>Banh Mi</h3>
         <p>
           Seasoned seitan, cucumber, radish, carrot, soy, coriander, onion,
-          house sauce, chili, mayonnaise
+          house sauce, chili, mayonnaise.
         </p>
       </article>
       <article className="banhmi_item">
