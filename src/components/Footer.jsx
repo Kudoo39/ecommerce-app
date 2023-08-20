@@ -4,14 +4,26 @@ import { ImFacebook } from "react-icons/im";
 import { FaTiktok } from "react-icons/fa";
 import { MdLocalShipping } from "react-icons/md";
 import { MdOutlineLocalShipping } from "react-icons/md";
+import { BsFillTelephoneFill } from "react-icons/bs";
 const Footer = () => {
   return (
     <footer>
       <a href="" className="footer_name">
         SAIGON SANDWICH BAKERY
       </a>
-      <h3 className="address">Address</h3>
-      <p className="address">Aninkaistenkatu 16, <br />20100 Turku, Finland</p>
+      <div className="address">
+        <h3>Address</h3>
+        <p>
+          Aninkaistenkatu 16, <br />
+          20100 Turku, Finland
+        </p>
+
+        <p>
+          <BsFillTelephoneFill /> &nbsp;{" "}
+          <a id="phone" href="tel:0401667333">+358 40 166 7333</a>
+        </p>
+      </div>
+
       <ul className="links">
         <li>
           <a href=""></a>

@@ -18,6 +18,14 @@ footer a {
   font-family: "Poppins", sans-serif;
 }
 
+#phone {
+  text-decoration: none;
+}
+
+#phone:hover {
+  color: #ffc27d;
+}
+
 .footer_name {
   font-size: 2rem;
   font-family: "Poppins", sans-serif;
