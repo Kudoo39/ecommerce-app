@@ -1,6 +1,8 @@
 # Restaurant App
 
-Welcome to the Restaurant App repository! This project is a practical web application designed for Saigon Sandwich Bakery, allowing users to explore menus and place orders online.
+Welcome to the Restaurant App repository! This project is a practical web application designed for Saigon Sandwich Bakery, allowing users to explore menus.
+
+NOTE: The current version of the app is optimized for larger screens, such as desktops and tablets
 
 ![Restaurant App Screenshot](src/assets/demo.png)
 
@@ -28,14 +30,6 @@ Welcome to the Restaurant App repository! This project is a practical web applic
 ## Project Status
 
 The Restaurant App is currently under development. It's aimed at showcasing my skills in web development and user interface design. The project is a great opportunity to create a practical solution for restaurant customers while gaining valuable experience in building real-world applications.
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute, please follow the [contribution guidelines](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
