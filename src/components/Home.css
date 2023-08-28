@@ -37,3 +37,19 @@
   object-fit: cover;
   zoom: 1;
 }
+@media (max-width: 767px) {
+  .home_container {
+    width: 90%;
+    grid-template-columns: 1fr;
+  }
+
+  .banhmi_item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .banhmi_item img,
+  #owner {
+    height: 200px;
+  }
+}
