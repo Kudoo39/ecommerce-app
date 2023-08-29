@@ -6,33 +6,28 @@ const Bao = () => {
   const menuItems = [
     {
       id: 1,
-      name: "Dish 1",
-      description: "Description for Dish 1",
-      price: "€5.99",
+      name: "1. Grilled Meat",
+      price: "€5.4",
     },
     {
       id: 2,
-      name: "Dish 2",
-      description: "Description for Dish 2",
-      price: "€6.49",
+      name: "2. Beef Satay Chili",
+      price: "€5.9",
     },
     {
       id: 3,
-      name: "Dish 3",
-      description: "Description for Dish 3",
-      price: "€6.49",
+      name: "3. Curry Chicken",
+      price: "€5.4",
     },
     {
       id: 4,
-      name: "Dish 4",
-      description: "Description for Dish 4",
-      price: "€6.49",
+      name: "4. Vegan",
+      price: "€4.95",
     },
     {
       id: 5,
-      name: "Dish 5",
-      description: "Description for Dish 5",
-      price: "€6.49",
+      name: "5. Grilled Chicken",
+      price: "€5.4",
     },
   ];
 
@@ -45,8 +40,7 @@ const Bao = () => {
         {menuItems.map((item) => (
           <div className="bao-menu-item" key={item.id}>
             <h2>{item.name}</h2>
-            <p>{item.price}</p>
-            <p>{item.description}</p>
+            <h4>{item.price}</h4>
           </div>
         ))}
       </div>

@@ -4,11 +4,24 @@
   justify-content: space-between;
 }
 
+.bao-image {
+  flex: 1;
+  padding-right: 20px;
+}
+
 .bao-image img {
   max-width: 100%;
+  margin-left: 100px;
+  border: 5px solid black;
 }
 
 .bao-menu-items {
+  margin-left: 100px;
   flex: 1;
-  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.bao-menu-item {
+  margin-bottom: 50px;
+  border-bottom: 1px solid #ccc;
 }
