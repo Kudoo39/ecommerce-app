@@ -14,7 +14,7 @@ const Menu = () => {
 
       <div className="menu">
         <Routes>
-          <Route path="" element={<Main />} />
+          <Route path="/" element={<Main />} />
           <Route path="/drink" element={<Drink />} />
         </Routes>
       </div>
