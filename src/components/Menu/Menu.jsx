@@ -8,11 +8,13 @@ import "./Menu.css";
 const Menu = () => {
   return (
     <div className="menu-container">
-      <h1>Menu</h1>
-      <div className="menu-nav">
-        <Link to="/menu">Main</Link>
-        <Link to="/menu/drink">Drink</Link>
-        <Link to="/menu/bao">Side Dish</Link>
+      <div className="menu-top">
+        <h1>Menu</h1>
+        <div className="menu-nav">
+          <Link to="/menu">Main</Link>
+          <Link to="/menu/drink">Drink</Link>
+          <Link to="/menu/bao">Side Dish</Link>
+        </div>
       </div>
 
       <div className="menu">

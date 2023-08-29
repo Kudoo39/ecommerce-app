@@ -3,6 +3,10 @@
   margin-bottom: 10px;
 }
 
+.menu-top {
+  margin-left: 170px;
+}
+
 .menu-nav {
   display: flex;
   gap: 10px;

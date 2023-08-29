@@ -2,11 +2,13 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  margin-top: 60px;
 }
 
 .bao-image {
   flex: 1;
   padding-right: 20px;
+  margin-left: 70px;
 }
 
 .bao-image img {
@@ -22,6 +24,6 @@
 }
 
 .bao-menu-item {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   border-bottom: 1px solid #ccc;
 }

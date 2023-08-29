@@ -6,27 +6,27 @@ const Bao = () => {
   const menuItems = [
     {
       id: 1,
-      name: "1. Grilled Meat",
+      name: "1. Grilled Meat Bao",
       price: "€5.4",
     },
     {
       id: 2,
-      name: "2. Beef Satay Chili",
+      name: "2. Beef Satay Chili Bao",
       price: "€5.9",
     },
     {
       id: 3,
-      name: "3. Curry Chicken",
+      name: "3. Curry Chicken Bao",
       price: "€5.4",
     },
     {
       id: 4,
-      name: "4. Vegan",
+      name: "4. Vegan Bao",
       price: "€4.95",
     },
     {
       id: 5,
-      name: "5. Grilled Chicken",
+      name: "5. Grilled Chicken Bao",
       price: "€5.4",
     },
   ];
