@@ -8,8 +8,8 @@ const Nav = () => {
       <ul className="nav-list">
         <Link to="/restaurant-app">Home</Link>
         <Link to="/menu">Menu</Link>
-        <a href="">About</a>
-        <a href="">Contact</a>
+        <Link to="/restaurant-app">About</Link>
+        <Link to="/restaurant-app">Contact</Link>
       </ul>
     </nav>
   );
