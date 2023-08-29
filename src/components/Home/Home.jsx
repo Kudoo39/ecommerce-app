@@ -1,7 +1,7 @@
 import React from "react";
-import img1 from "../assets/vegan.jpg";
-import img2 from "../assets/pho.jpg";
-import img3 from "../assets/owner.jpg";
+import img1 from "../../assets/vegan.jpg";
+import img2 from "../../assets/pho.jpg";
+import img3 from "../../assets/owner.jpg";
 import "./Home.css";
 
 const Home = () => (

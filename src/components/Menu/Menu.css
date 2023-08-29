@@ -30,6 +30,17 @@
   font-size: 1.5rem;
 }
 
+.hstack {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.hstack p {
+  font-weight: bold;
+}
+
 .menu-item p {
   margin: 10px 0;
   font-size: 1.1rem;

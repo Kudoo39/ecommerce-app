@@ -1,14 +1,16 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./Menu.css";
-import img1 from "../assets/patee.jpg";
-import img2 from "../assets/grill.jpg";
-import img3 from "../assets/beef.jpg";
-import img4 from "../assets/kanacurry.jpg";
-import img5 from "../assets/bbq.jpg";
-import img6 from "../assets/vegan.jpg";
-import img7 from "../assets/kanaleike.jpg";
-import img8 from "../assets/grilled_chicken.jpg";
-import img9 from "../assets/porkbelly.jpg";
+import img1 from "../../assets/patee.jpg";
+import img2 from "../../assets/grill.jpg";
+import img3 from "../../assets/beef.jpg";
+import img4 from "../../assets/kanacurry.jpg";
+import img5 from "../../assets/bbq.jpg";
+import img6 from "../../assets/vegan.jpg";
+import img7 from "../../assets/kanaleike.jpg";
+import img8 from "../../assets/grilled_chicken.jpg";
+import img9 from "../../assets/porkbelly.jpg";
+import Drink from "./Drink";
 
 const menuItems = [
   {
@@ -89,13 +91,19 @@ const Menu = () => {
   return (
     <div className="menu-container">
       <h1>Menu</h1>
+      <Routes>
+        <Route path="/menu" element={<Menu />} />
+        <Route path="/menu/drink" element={<Drink />} />
+      </Routes>
       <div className="menu">
         {menuItems.map((item) => (
           <div className="menu-item" key={item.id}>
             <img src={item.image} alt={item.name} />
-            <h2>{item.name}</h2>
+            <div class="hstack">
+              <h2>{item.name}</h2>
+              <p>{item.price}</p>
+            </div>
             <p>{item.description}</p>
-            <p>{item.price}</p>
           </div>
         ))}
       </div>
