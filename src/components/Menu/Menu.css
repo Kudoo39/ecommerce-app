@@ -1,0 +1,27 @@
+.menu-container h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.menu-nav {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.menu-nav a {
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #333;
+  font-weight: bold;
+}
+
+.menu-nav a:hover {
+  background-color: #f0f0f0;
+}
+
+.menu {
+  margin-bottom: 50px;
+}

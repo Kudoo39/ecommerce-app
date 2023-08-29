@@ -1,7 +1,8 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { Route, Routes, Link } from "react-router-dom";
 import Drink from "./Drink";
 import Main from "./Main";
+import "./Menu.css";
 
 const Menu = () => {
   return (

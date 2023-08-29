@@ -24,8 +24,7 @@ const menuItems = [
   {
     id: 3,
     name: "Jaffa",
-    description:
-      "A Delightful Treat Blending the Zesty Goodness of Orange with the Rich Indulgence.",
+    description: "A Delightful Treat Blending the Zesty Goodness of Orange.",
     price: "€1.8",
     image: img3,
   },
