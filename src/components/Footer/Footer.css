@@ -59,6 +59,28 @@ footer a {
   color: white;
 }
 
+.foodora {
+  width: 60px;
+  height: 60px;
+  margin-left: -70px;
+}
+.foodora:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.wolt {
+  width: 140px;
+  height: 60px;
+  margin-left: -50px;
+}
+.wolt:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+  cursor: pointer;
+}
+
 @media (max-width: 768px) {
   .address {
     margin: 1rem auto;

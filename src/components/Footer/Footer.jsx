@@ -5,6 +5,9 @@ import { FaTiktok } from "react-icons/fa";
 import { MdLocalShipping } from "react-icons/md";
 import { MdOutlineLocalShipping } from "react-icons/md";
 import { BsFillTelephoneFill } from "react-icons/bs";
+import foodora from "../../assets/foodora1.jpg";
+import wolt from "../../assets/wolt1.jpg";
+
 const Footer = () => {
   return (
     <footer>
@@ -20,7 +23,9 @@ const Footer = () => {
 
         <p>
           <BsFillTelephoneFill /> &nbsp;{" "}
-          <a id="phone" href="tel:0401667333">+358 40 166 7333</a>
+          <a id="phone" href="tel:0401667333">
+            +358 40 166 7333
+          </a>
         </p>
       </div>
 
@@ -46,13 +51,16 @@ const Footer = () => {
           target="_blank"
           href="https://wolt.com/en/fin/turku/restaurant/saigon-sandwich"
         >
-          <MdLocalShipping />
+          {/* <MdLocalShipping /> */}
+          <img src={wolt} className="wolt" />
         </a>
+
         <a
           target="_blank"
           href="https://www.foodora.fi/en/restaurant/s6bc/saigon-sandwich"
         >
-          <MdOutlineLocalShipping />
+          {/* <MdOutlineLocalShipping /> */}
+          <img src={foodora} className="foodora" />
         </a>
       </div>
       <div className="copyright">
