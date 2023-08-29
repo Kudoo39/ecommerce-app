@@ -1,0 +1,14 @@
+.bao-menu-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.bao-image img {
+  max-width: 100%;
+}
+
+.bao-menu-items {
+  flex: 1;
+  margin-left: 20px;
+}
