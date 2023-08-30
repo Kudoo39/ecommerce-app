@@ -3,6 +3,8 @@ import "./Drink.css";
 import img1 from "../../assets/cola.jpg";
 import img2 from "../../assets/cola-zero.jpg";
 import img3 from "../../assets/jaffa.jpg";
+import img4 from "../../assets/pepsi.jpg";
+import img5 from "../../assets/coffee.jpg";
 
 const menuItems = [
   {
@@ -27,6 +29,22 @@ const menuItems = [
     description: "A Delightful Treat Blending the Zesty Goodness of Orange.",
     price: "€1.8",
     image: img3,
+  },
+  {
+    id: 4,
+    name: "Pepsi MAX",
+    description:
+      "Pepsi is a popular carbonated soft drink recognized for its unique flavor.",
+    price: "€1.8",
+    image: img4,
+  },
+  {
+    id: 5,
+    name: "Vietnamese Iced Coffee",
+    description:
+      "Vietnamese Iced Coffee is a delicious and strong coffee treat made by dripping richly brewed coffee over ice, sweetened with condensed milk.",
+    price: "€4.95",
+    image: img5,
   },
 ];
 
