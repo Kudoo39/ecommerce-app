@@ -7,6 +7,8 @@ import { MdOutlineLocalShipping } from "react-icons/md";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import foodora from "../../assets/foodora1.jpg";
 import wolt from "../../assets/wolt1.jpg";
+import tiktok from "../../assets/tiktok.jpg";
+import facebook from "../../assets/facebook2.jpg";
 
 const Footer = () => {
   return (
@@ -43,9 +45,11 @@ const Footer = () => {
       <div className="footer_socials">
         <a target="_blank" href="https://www.facebook.com/saigonbakeryturku">
           <ImFacebook />
+          {/* <img src={facebook} className="facebook" /> */}
         </a>
         <a target="_blank" href="https://www.tiktok.com/@banhmisaigonturku">
           <FaTiktok />
+          {/* <img src={tiktok} className="tiktok" /> */}
         </a>
         <a
           target="_blank"

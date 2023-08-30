@@ -59,15 +59,14 @@ footer a {
   color: white;
 }
 
-.foodora {
-  width: 60px;
-  height: 60px;
-  margin-left: -70px;
+.facebook {
+  width: 200px;
+  height: 45px;
 }
-.foodora:hover {
-  transform: scale(1.2);
-  opacity: 0.8;
-  cursor: pointer;
+
+.tiktok {
+  width: 150px;
+  height: 60px;
 }
 
 .wolt {
@@ -76,6 +75,17 @@ footer a {
   margin-left: -50px;
 }
 .wolt:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.foodora {
+  width: 60px;
+  height: 60px;
+  margin-left: -60px;
+}
+.foodora:hover {
   transform: scale(1.2);
   opacity: 0.8;
   cursor: pointer;
