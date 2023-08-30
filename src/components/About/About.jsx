@@ -9,19 +9,22 @@ const corporateLeadership = [
   {
     name: "Erik Isokorpi",
     position: "CEO",
-    description: "CEO",
+    description:
+      "As the Chief Executive Officer (CEO), Erik Isokorpi plays a pivotal role in steering the company towards success. With a strategic vision and decisive leadership, Erik is responsible for not only managing the day-to-day operations of the store but also charting the course for its future direction. By fostering innovation and maintaining a strong market presence, Erik ensures that the store remains at the forefront of the industry.",
     image: ceo,
   },
   {
     name: "Kim Huong Nguyen",
     position: "Executive Chef",
-    description: "Executive Chef",
+    description:
+      "As the Executive Chef, Kim Huong Nguyen wields her culinary expertise to orchestrate the gastronomic experiences that define the store. Her responsibilities span the entire spectrum of food management, from meticulously selecting the finest ingredients to crafting delectable dishes that delight the palate. With a keen eye for flavor and presentation, Kim Huong ensures that every meal served is a masterpiece in taste and aesthetics.",
     image: maker,
   },
   {
     name: "Thuy Tien Nguyen",
     position: "Staff",
-    description: "Staff",
+    description:
+      "As a valued member of our staff, Thuy Tien Nguyen embodies the essence of customer service excellence. With a warm and welcoming demeanor, Thuy Tien is dedicated to providing exceptional sales assistance to our esteemed customers. By offering personalized recommendations and addressing inquiries, she contributes to creating a shopping experience that is both enjoyable and satisfying for all patrons.",
     image: staff,
   },
 ];
@@ -58,7 +61,7 @@ const About = () => {
       </div>
 
       <div className="leadership-section">
-        <h2>Corporate Leadership</h2>
+        <h3>Corporate Leadership</h3>
         <div className="leadership-grid">
           {corporateLeadership.map((leader, index) => (
             <div key={index} className="leader-card">
@@ -67,9 +70,11 @@ const About = () => {
                 alt={leader.name}
                 className="leader-image"
               />
-              <h3>{leader.name}</h3>
-              <p>{leader.position}</p>
-              <p>{leader.description}</p>
+              <div className="leader-details">
+                <h4 className="leader-name">{leader.name}</h4>
+                <p className="leader-position">{leader.position}</p>
+                <p className="leader-description">{leader.description}</p>
+              </div>
             </div>
           ))}
         </div>
