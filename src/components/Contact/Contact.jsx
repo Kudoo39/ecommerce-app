@@ -41,7 +41,11 @@ const Contact = () => {
       </p>
       <form ref={form} onSubmit={sendEmail} className="contact-form">
         <div className="mb-3">
-          <label htmlFor="name" className="form-label">
+          <label
+            htmlFor="name"
+            className="form-label"
+            style={{ fontWeight: "bold" }}
+          >
             Name
           </label>
           <input
@@ -56,7 +60,11 @@ const Contact = () => {
           />
         </div>
         <div className="mb-3">
-          <label htmlFor="email" className="form-label">
+          <label
+            htmlFor="email"
+            className="form-label"
+            style={{ fontWeight: "bold" }}
+          >
             Email
           </label>
           <input
@@ -71,7 +79,11 @@ const Contact = () => {
           />
         </div>
         <div className="mb-3">
-          <label htmlFor="phone" className="form-label">
+          <label
+            htmlFor="phone"
+            className="form-label"
+            style={{ fontWeight: "bold" }}
+          >
             Phone Number <em style={{ fontStyle: "italic" }}>(Not Required)</em>
           </label>
           <input
@@ -84,7 +96,11 @@ const Contact = () => {
           />
         </div>
         <div className="mb-3">
-          <label htmlFor="message" className="form-label">
+          <label
+            htmlFor="message"
+            className="form-label"
+            style={{ fontWeight: "bold" }}
+          >
             Message
           </label>
           <textarea
