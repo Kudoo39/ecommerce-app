@@ -119,21 +119,46 @@ body {
 }
 
 @media (max-width: 768px) {
+  body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+
+  .about-container {
+    padding: 20px; /* Reduce vertical padding */
+  }
+
+  .about-heading {
+    font-size: 24px; /* Slightly reduce font size */
+    margin-bottom: 15px; /* Adjust margin */
+  }
+
+  .about-hstack {
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center align items */
+    margin-top: 15px; /* Add some spacing */
+  }
+
   .about-photo {
-    width: 40%;
-    height: 40%;
+    max-width: 100%;
+    height: auto; /* Allow photo to scale proportionally */
+    border-radius: 10px;
+    margin-bottom: 15px; /* Add spacing */
   }
 
   .about-section {
-    margin: 20px 0;
-    padding: 15px;
+    padding: 15px; /* Reduce padding */
+    max-width: 100%; /* Take up full width */
+    margin: 20px 0; /* Adjust margins */
+    font-family: "Poppins", sans-serif;
   }
 
   .about-section p {
-    font-size: 8px;
-    line-height: 1.2;
-    color: #555;
-    margin-bottom: 20px;
+    font-size: 18px; /* Reduce font size */
+    line-height: 1.5; /* Adjust line height */
+    margin-bottom: 15px; /* Adjust margin */
   }
 
   .leadership-section h3 {
