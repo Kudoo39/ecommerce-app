@@ -9,8 +9,8 @@ const Hour = () => {
         orders on Wolt and Foodora:
       </p>
       <ul>
-        <li>Monday to Friday: 11:00 AM - 5:30 PM</li>
-        <li>Saturday and Sunday: Closed</li>
+        <li>Wednesday to Saturday: 11:00 AM - 5:30 PM</li>
+        <li>Sunday, Monday and Tuesday: Closed</li>
       </ul>
       <p>You can place orders during these hours on the following platforms:</p>
       <ul>
