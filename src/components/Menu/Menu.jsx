@@ -13,9 +13,9 @@ const Menu = () => {
         <h1>Menu</h1>
         <div className="menu-nav">
           <Link to="/menu">Main</Link>
-          <Link to="/menu/drink">Drink</Link>
+          <Link to="/menu/bao">Bao</Link>
           <Link to="/menu/salad">Salad</Link>
-          <Link to="/menu/bao">Side Dish</Link>
+          <Link to="/menu/drink">Drink</Link>
         </div>
       </div>
 
