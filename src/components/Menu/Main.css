@@ -1,6 +1,6 @@
 .main-menu-container {
   padding: 20px;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -48,6 +48,11 @@
 }
 
 @media (max-width: 768px) {
+  .main-menu-container {
+    padding: 20px;
+    width: 100%;
+  }
+
   .main-menu {
     grid-template-columns: 1fr 1fr;
     gap: 10px;
