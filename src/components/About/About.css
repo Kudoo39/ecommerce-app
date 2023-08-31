@@ -106,8 +106,8 @@ body {
 
 @media (max-width: 1024px) {
   .about-photo {
-    width: 50%;
-    height: 50%;
+    width: 90%;
+    height: 90%;
   }
 
   .about-section p {

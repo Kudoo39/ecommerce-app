@@ -92,7 +92,7 @@ const Main = () => {
         {menuItems.map((item) => (
           <div className="main-menu-item" key={item.id}>
             <img src={item.image} alt={item.name} />
-            <div className="hstack">
+            <div className="hstack-main">
               <h2>{item.name}</h2>
               <p>{item.price}</p>
             </div>
