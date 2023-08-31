@@ -91,7 +91,7 @@ const Contact = () => {
             placeholder="Type your message..."
             className="form-control"
             id="message"
-            name="message"
+            name="message   "
             rows="4"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
