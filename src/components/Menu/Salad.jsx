@@ -33,16 +33,16 @@ const Salad = () => {
 
   return (
     <div className="salad-menu-container">
-      <div className="salad-image">
-        <img src={img} alt="Photo about Salad" />
-      </div>
       <div className="salad-menu-items">
         {menuItems.map((item) => (
           <div className="salad-menu-item" key={item.id}>
-            <h2>{item.name}</h2>
-            <h4>{item.price}</h4>
+            <h3>{item.name}</h3>
+            <h5>{item.price}</h5>
           </div>
         ))}
+      </div>
+      <div className="salad-image">
+        <img src={img} alt="Photo about Salad" />
       </div>
     </div>
   );

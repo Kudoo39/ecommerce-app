@@ -1,0 +1,30 @@
+.salad-menu-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.salad-image {
+  flex: 1;
+  margin-right: 200px;
+}
+
+.salad-image img {
+  max-width: 100%;
+  margin-left: 100px;
+  border: 5px solid black;
+}
+
+.salad-menu-items {
+  margin-left: 100px;
+  flex: 1;
+  padding-left: 20px;
+}
+
+.salad-menu-item {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  font-size: 10px;
+  margin-left: 60px;
+}
