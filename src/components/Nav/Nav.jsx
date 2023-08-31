@@ -9,14 +9,28 @@ const Nav = () => {
     setIsNavOpen(!isNavOpen);
   };
 
+  const closeNav = () => {
+    setIsNavOpen(false);
+  };
+
   return (
     <nav>
       <ul className={`nav-list ${isNavOpen ? "open" : ""}`}>
-        <Link to="/">Home</Link>
-        <Link to="/menu">Menu</Link>
-        <Link to="/about">About</Link>
-        <Link to="/contact">Contact</Link>
-        <Link to="/hour">Operating Hours</Link>
+        <Link to="/" onClick={closeNav}>
+          Home
+        </Link>
+        <Link to="/menu" onClick={closeNav}>
+          Menu
+        </Link>
+        <Link to="/about" onClick={closeNav}>
+          About
+        </Link>
+        <Link to="/contact" onClick={closeNav}>
+          Contact
+        </Link>
+        <Link to="/hour" onClick={closeNav}>
+          Operating Hours
+        </Link>
       </ul>
 
       <button
