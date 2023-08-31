@@ -16,7 +16,7 @@ const menuItems = [
     name: "Saigon Original Patee",
     description:
       "Garlic Slice of Seasoned Pork, Pate, Chicken Slice, Cucumber, Radish, Coriander, Onion, Carrot, Soy, House Sauce, Mayonnaise, Chili.",
-    price: "€7.2",
+    price: "€7.20",
     image: img1,
   },
   {
@@ -24,7 +24,7 @@ const menuItems = [
     name: "Saigon Grilled Meat",
     description:
       "Lemongrass, Grilled Pork, Cucumber, Radish, Carrot, Coriander, Soy, House Sauce, Mayonnaise, Chili.",
-    price: "€7.5",
+    price: "€7.50",
     image: img2,
   },
   {
@@ -32,7 +32,7 @@ const menuItems = [
     name: "Beef Satay Chili",
     description:
       "Fried Beef Satey, Cucumber, Radish, Carrot, Onion, Coriander, House Sauce, Chili, Mayonnaise.",
-    price: "€8.2",
+    price: "€8.20",
     image: img3,
   },
   {
@@ -40,7 +40,7 @@ const menuItems = [
     name: "Saigon Curry Chicken",
     description:
       "Curry Chicken, Curry, Cucumber, Radish, Carrot, Soy, Onion, Chili, House Sauce, Coriander, Mayonnaise.",
-    price: "€7.5",
+    price: "€7.50",
     image: img4,
   },
   {
@@ -48,7 +48,7 @@ const menuItems = [
     name: "BBQ Seasoned Meat",
     description:
       "Pork BBQ Meat, Cucumber, Radish, Carrot, Soy, Chili, Coriander, Onion, House Sauce, Mayonnaise.",
-    price: "€7.2",
+    price: "€7.20",
     image: img5,
   },
   {
@@ -56,7 +56,7 @@ const menuItems = [
     name: "Vegan",
     description:
       "Seasoned Seitan, Cucumber, Radish, Carrot, Soy, Coriander, Onion, House Sauce, Chili, Mayonnaise.",
-    price: "€6.5",
+    price: "€6.50",
     image: img6,
   },
   {
@@ -64,7 +64,7 @@ const menuItems = [
     name: "Chicken Cutlet",
     description:
       "Chicken, Pate, Cucumber, Radish, Carrot, Soy, Chili, Onion, Coriander, House Sauce, Mayonnaise.",
-    price: "€6.5",
+    price: "€6.50",
     image: img7,
   },
   {
@@ -72,7 +72,7 @@ const menuItems = [
     name: "Saigon Grilled Chicken",
     description:
       "Grilled Chicken, Cucumber, Radish, Carrot, Soy, Chili, Coriander, Onion, House Sauce, Mayonnaise.",
-    price: "€7.5",
+    price: "€7.50",
     image: img8,
   },
   {

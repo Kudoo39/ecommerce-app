@@ -2,6 +2,7 @@ import React from "react";
 import { Route, Routes, Link } from "react-router-dom";
 import Bao from "./Bao";
 import Drink from "./Drink";
+import Salad from "./Salad";
 import Main from "./Main";
 import "./Menu.css";
 
@@ -13,6 +14,7 @@ const Menu = () => {
         <div className="menu-nav">
           <Link to="/menu">Main</Link>
           <Link to="/menu/drink">Drink</Link>
+          <Link to="/menu/salad">Salad</Link>
           <Link to="/menu/bao">Side Dish</Link>
         </div>
       </div>
@@ -21,6 +23,7 @@ const Menu = () => {
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/drink" element={<Drink />} />
+          <Route path="/salad" element={<Salad />} />
           <Route path="/bao" element={<Bao />} />
         </Routes>
       </div>

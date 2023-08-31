@@ -7,17 +7,17 @@ const Bao = () => {
     {
       id: 1,
       name: "1. Grilled Meat Bao",
-      price: "€5.4",
+      price: "€5.40",
     },
     {
       id: 2,
       name: "2. Beef Satay Chili Bao",
-      price: "€5.9",
+      price: "€5.90",
     },
     {
       id: 3,
       name: "3. Curry Chicken Bao",
-      price: "€5.4",
+      price: "€5.40",
     },
     {
       id: 4,
@@ -27,7 +27,7 @@ const Bao = () => {
     {
       id: 5,
       name: "5. Grilled Chicken Bao",
-      price: "€5.4",
+      price: "€5.40",
     },
   ];
 
