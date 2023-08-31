@@ -27,3 +27,28 @@
   margin-bottom: 40px;
   border-bottom: 1px solid #ccc;
 }
+
+@media (max-width: 768px) {
+  .bao-menu-container {
+    flex-direction: column; /* Stack elements vertically on small devices */
+    align-items: center; /* Center align items */
+    margin-top: 30px; /* Reduce top margin */
+  }
+
+  .bao-image,
+  .bao-menu-items {
+    flex: none; /* Reset flex property */
+    padding: 0; /* Reset padding */
+    margin: 0; /* Reset margin */
+    text-align: center; /* Center align content */
+    margin-bottom: 30px;
+  }
+
+  .bao-image img {
+    margin-left: 0; /* Reset margin */
+  }
+
+  .bao-menu-item {
+    margin-bottom: 20px; /* Reduce margin */
+  }
+}

@@ -28,3 +28,35 @@
   font-size: 10px;
   margin-left: 60px;
 }
+
+@media (max-width: 768px) {
+  .salad-menu-items {
+    order: 2;
+  }
+
+  .salad-image {
+    order: 1;
+  }
+  .salad-menu-container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .salad-menu-items,
+  .salad-image {
+    flex: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .salad-image img {
+    margin-left: 0;
+  }
+
+  .salad-menu-item {
+    margin-bottom: 20px;
+  }
+}
