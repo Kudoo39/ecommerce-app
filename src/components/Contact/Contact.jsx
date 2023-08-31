@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
+import emailjs from "emailjs-com";
 import "./Contact.css";
 
 const Contact = () => {
@@ -6,13 +7,26 @@ const Contact = () => {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
+  const form = useRef();
 
-  const handleSubmit = (e) => {
+  const sendEmail = (e) => {
     e.preventDefault();
-    console.log("Name:", name);
-    console.log("Email:", email);
-    console.log("Phone:", phone);
-    console.log("Message:", message);
+
+    emailjs
+      .sendForm(
+        "service_fk2ku0m",
+        "template_onj6mph",
+        form.current,
+        "vRHyi9tZzBV2Fg8hN"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
     setName("");
     setEmail("");
     setPhone("");
@@ -25,7 +39,7 @@ const Contact = () => {
       <p className="contact-description">
         If you have any questions or feedback, feel free to reach out to us!
       </p>
-      <form onSubmit={handleSubmit} className="contact-form">
+      <form ref={form} onSubmit={sendEmail} className="contact-form">
         <div className="mb-3">
           <label htmlFor="name" className="form-label">
             Name
@@ -35,6 +49,7 @@ const Contact = () => {
             type="text"
             className="form-control"
             id="name"
+            name="name"
             value={name}
             onChange={(e) => setName(e.target.value)}
             required
@@ -49,6 +64,7 @@ const Contact = () => {
             type="email"
             className="form-control"
             id="email"
+            name="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
@@ -62,6 +78,7 @@ const Contact = () => {
             placeholder="Type your phone number..."
             className="form-control"
             id="phone"
+            name="phone"
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
           />
@@ -74,6 +91,7 @@ const Contact = () => {
             placeholder="Type your message..."
             className="form-control"
             id="message"
+            name="message"
             rows="4"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
