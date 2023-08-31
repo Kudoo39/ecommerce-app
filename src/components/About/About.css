@@ -116,6 +116,50 @@ body {
     color: #555;
     margin-bottom: 20px;
   }
+  .leadership-section {
+    margin-top: 60px;
+  }
+
+  .leadership-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .leader-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .leader-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .leader-name {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+
+  .leader-position {
+    font-size: 1.1rem;
+    margin-bottom: 6px;
+  }
+
+  .leader-description {
+    font-size: 0.9rem;
+    color: black;
+  }
 }
 
 @media (max-width: 768px) {
@@ -128,72 +172,49 @@ body {
 
   .about-container {
     padding: 20px;
+  }
+  .about-heading {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
 
-    .about-heading {
-      font-size: 24px;
-      margin-bottom: 15px;
-    }
+  .about-hstack {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+  }
 
-    .about-hstack {
-      flex-direction: column;
-      align-items: center;
-      margin-top: 15px;
-    }
+  .about-photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
 
+  .about-section {
+    padding: 15px;
+    max-width: 100%;
+    margin: 20px 0;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .about-section p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+
+  @media (max-width: 468px) {
     .about-photo {
-      max-width: 100%;
-      height: auto;
-      border-radius: 10px;
-      margin-bottom: 15px;
-    }
-
-    .about-section {
-      padding: 15px;
-      max-width: 100%;
-      margin: 20px 0;
-      font-family: "Poppins", sans-serif;
+      width: 40%;
+      height: 40%;
     }
 
     .about-section p {
-      font-size: 18px;
-      line-height: 1.5;
-      margin-bottom: 15px;
-
-      .leadership-section h3 {
-        text-align: center;
-      }
-
-      .leader-card {
-        width: 100%;
-        flex-direction: column;
-      }
-
-      .leader-image {
-        width: 100%;
-        height: auto;
-        max-width: 150px;
-        margin: 0 auto 10px;
-      }
-
-      .leader-name,
-      .leader-position,
-      .leader-description {
-        text-align: center;
-      }
-    }
-
-    @media (max-width: 468px) {
-      .about-photo {
-        width: 40%;
-        height: 40%;
-      }
-
-      .about-section p {
-        font-size: 6px;
-        line-height: 1;
-        color: #555;
-        margin-bottom: 20px;
-      }
+      font-size: 6px;
+      line-height: 1;
+      color: #555;
+      margin-bottom: 20px;
     }
   }
 }
