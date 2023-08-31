@@ -2,8 +2,6 @@
 
 Welcome to the Restaurant App repository! This project is a practical web application designed for Saigon Sandwich Bakery, allowing users to explore menus.
 
-NOTE: The current version of the app is optimized for larger screens, such as desktops and tablets
-
 ![Restaurant App Screenshot](src/assets/demo.png)
 
 ## Features
