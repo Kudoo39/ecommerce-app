@@ -44,6 +44,7 @@
 .main-menu-item p {
   margin: 10px;
   font-size: 1.1rem;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -67,7 +68,7 @@
 
   .hstack {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     padding: 10px;
   }
 

@@ -39,8 +39,12 @@
   }
   .salad-menu-container {
     flex-direction: column;
-    align-items: center;
     margin-top: 30px;
+    align-items: center;
+  }
+
+  .salad-menu-item {
+    margin-left: -10px;
   }
 
   .salad-menu-items,
@@ -54,9 +58,5 @@
 
   .salad-image img {
     margin-left: 0;
-  }
-
-  .salad-menu-item {
-    margin-bottom: 20px;
   }
 }
