@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import "./Nav.css";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const Nav = () => {
+  const { t } = useTranslation();
+
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   const toggleNav = () => {
@@ -17,19 +20,19 @@ const Nav = () => {
     <nav>
       <ul className={`nav-list ${isNavOpen ? "open" : ""}`}>
         <Link to="/" onClick={closeNav}>
-          Home
+          {t("nav.home")}
         </Link>
         <Link to="/menu" onClick={closeNav}>
-          Menu
+          {t("nav.menu")}
         </Link>
         <Link to="/about" onClick={closeNav}>
-          About
+          {t("nav.about")}
         </Link>
         <Link to="/contact" onClick={closeNav}>
-          Contact
+          {t("nav.contact")}
         </Link>
         <Link to="/hour" onClick={closeNav}>
-          Operating Hours
+          {t("nav.hour")}
         </Link>
       </ul>
 

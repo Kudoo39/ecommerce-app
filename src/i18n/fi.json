@@ -8,5 +8,14 @@
   "home.banhmiDescription": "Maustettu seitan, kurkku, retikka, porkkana, soija, korianteri, sipuli, talonkastike, chili, majoneesia",
   "home.phoDescription": "Pho on suosittu ruoka Vietnamissa, jossa sitä tarjoillaan kotitalouksissa, katukojuissa ja ravintoloissa eri puolilla maata. Sitä pidetään Vietnamin kansallisruokana.",
   "home.ownerDescription1": "Kim Huong Nguyen avasi positiivista palautetta saaneen Turun katuruokaravintolan Saigon Sandwich Bakeryn. Tavoitteena on tarjota aitoja vietnamilaisia makuja.",
-  "home.ownerDescription2": "Aloin kehittää reseptejä ja halusin tarjota suomalaisten maisteltaviksi vietnamilaisia makuja."
+  "home.ownerDescription2": "Aloin kehittää reseptejä ja halusin tarjota suomalaisten maisteltaviksi vietnamilaisia makuja.",
+
+  "footer.address.title": "Osoite",
+  "footer.address.line": "20100 Turku, Suomi",
+
+  "nav.home": "Koti",
+  "nav.menu": "Menu",
+  "nav.about": "Tietoa",
+  "nav.contact": "Ota yhteyttä",
+  "nav.hour": "Aukioloajat"
 }
