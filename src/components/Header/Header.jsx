@@ -1,18 +1,23 @@
 import React from "react";
 import img1 from "../../assets/background7.jpg";
 import "./Header.css";
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="header-container">
       <div className="text-content">
-        <h1>Saigon Sandwich Bakery</h1>
+        <h1>{t("header.title")}</h1>
         <p>
-          Tasty Banh Mi sandwiches!
+          {t("header.description.line1")}
           <br />
-          Saigon Sandwich is a restaurant <br />
-          that sells Vietnamese sandwiches
-          <br /> for You!
+          {t("header.description.line2")}
+          <br />
+          {t("header.description.line3")}
+          <br />
+          {t("header.description.line4")}
         </p>
       </div>
       <div className="background-image-container">
