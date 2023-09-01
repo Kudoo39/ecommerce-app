@@ -3,5 +3,10 @@
   "header.description.line1": "Tasty Banh Mi sandwiches!",
   "header.description.line2": "Saigon Sandwich is a restaurant",
   "header.description.line3": "that sells Vietnamese sandwiches",
-  "header.description.line4": "for You!"
+  "header.description.line4": "for You!",
+
+  "home.banhmiDescription": "Seasoned seitan, cucumber, radish, carrot, soy, coriander, onion, house sauce, chili, mayonnaise.",
+  "home.phoDescription": "Pho is a popular food in Vietnam, where it is served in households, street stalls and restaurants across the country. It is considered the national dish of Vietnam.",
+  "home.ownerDescription1": "Kim Huong Nguyen opened the Turku street food restaurant Saigon Sandwich Bakery, which has received positive feedback. The goal is to provide genuine Vietnamese flavors.",
+  "home.ownerDescription2": "I started developing recipes and wanted to offer Vietnamese flavors for Finns to taste."
 }

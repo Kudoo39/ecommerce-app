@@ -3,5 +3,10 @@
   "header.description.line1": "Maukkaita Banh Mi -voileipiä!",
   "header.description.line2": "Saigon Sandwich on ravintola",
   "header.description.line3": "joka myy vietnamilaisia patonkeja",
-  "header.description.line4": "sinulle!"
+  "header.description.line4": "sinulle!",
+
+  "home.banhmiDescription": "Maustettu seitan, kurkku, retikka, porkkana, soija, korianteri, sipuli, talonkastike, chili, majoneesia",
+  "home.phoDescription": "Pho on suosittu ruoka Vietnamissa, jossa sitä tarjoillaan kotitalouksissa, katukojuissa ja ravintoloissa eri puolilla maata. Sitä pidetään Vietnamin kansallisruokana.",
+  "home.ownerDescription1": "Kim Huong Nguyen avasi positiivista palautetta saaneen Turun katuruokaravintolan Saigon Sandwich Bakeryn. Tavoitteena on tarjota aitoja vietnamilaisia makuja.",
+  "home.ownerDescription2": "Aloin kehittää reseptejä ja halusin tarjota suomalaisten maisteltaviksi vietnamilaisia makuja."
 }
