@@ -1,10 +1,14 @@
+.language-selector {
+  margin-right: 30px;
+  display: flex;
+}
+
 .language-selector button {
   background-color: black;
   color: white;
   border: none;
-  padding: 10px;
   cursor: pointer;
-  margin-left: 10px;
+  margin-right: 30px;
 }
 
 .language-selector button:hover {
