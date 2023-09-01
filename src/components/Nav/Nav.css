@@ -9,6 +9,12 @@ nav {
   font-weight: 600;
 }
 
+.hstack-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .nav-list {
   list-style: none;
   padding: 0;
