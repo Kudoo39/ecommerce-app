@@ -5,6 +5,7 @@ import img3 from "../../assets/owner.jpg";
 import "./Home.css";
 import { useTranslation } from "react-i18next";
 import SubscriptionForm from "../SubscriptionForm";
+import Feedback from "../Feedback/Feedback";
 
 const Home = () => {
   const { t } = useTranslation();
@@ -30,6 +31,7 @@ const Home = () => {
           <p>{t("home.ownerDescription2")}</p>
         </article>
       </div>
+      <Feedback />
     </div>
   );
 };
