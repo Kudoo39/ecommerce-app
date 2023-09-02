@@ -12,21 +12,12 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_fk2ku0m",
-        "template_onj6mph",
-        form.current,
-        "vRHyi9tZzBV2Fg8hN"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    emailjs.sendForm(
+      "service_fk2ku0m",
+      "template_onj6mph",
+      form.current,
+      "vRHyi9tZzBV2Fg8hN"
+    );
     setName("");
     setEmail("");
     setPhone("");

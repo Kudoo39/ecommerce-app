@@ -17,5 +17,11 @@
   "nav.hour": "Tilaa Kotiin",
   "nav.menu": "Menu",
   "nav.about": "Tietoa",
-  "nav.contact": "Ota yhteyttä"
+  "nav.contact": "Ota yhteyttä",
+
+  "subscriptionForm.title": "Pysy ajan tasalla uusimmista tarjouksistamme!",
+  "subscriptionForm.description": "Tilaa ilmoitukset uusista ravintolan tarjouksista.",
+  "subscriptionForm.placeholder": "Sähköpostiosoitteesi...",
+  "subscriptionForm.buttonText": "Tilaa",
+  "subscriptionForm.thankYou": "Kiitos tilauksestasi!"
 }
