@@ -24,6 +24,9 @@ const Nav = () => {
           <Link to="/" onClick={closeNav}>
             {t("nav.home")}
           </Link>
+          <Link to="/hour" onClick={closeNav}>
+            {t("nav.hour")}
+          </Link>
           <Link to="/menu" onClick={closeNav}>
             {t("nav.menu")}
           </Link>
@@ -32,9 +35,6 @@ const Nav = () => {
           </Link>
           <Link to="/contact" onClick={closeNav}>
             {t("nav.contact")}
-          </Link>
-          <Link to="/hour" onClick={closeNav}>
-            {t("nav.hour")}
           </Link>
         </ul>
 

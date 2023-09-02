@@ -5,7 +5,7 @@
   "header.description.line3": "that sells Vietnamese sandwiches",
   "header.description.line4": "for You!",
 
-  "home.banhmiDescription": "Seasoned seitan, cucumber, radish, carrot, soy, coriander, onion, house sauce, chili, mayonnaise.",
+  "home.banhmiDescription": "Banh Mi is a short baguette with thin, crisp crust and soft, airy texture. It is often split lengthwise and filled with savory ingredients like a submarine sandwich and served as a meal.",
   "home.phoDescription": "Pho is a popular food in Vietnam, where it is served in households, street stalls and restaurants across the country. It is considered the national dish of Vietnam.",
   "home.ownerDescription1": "Kim Huong Nguyen opened the Turku street food restaurant Saigon Sandwich Bakery, which has received positive feedback. The goal is to provide genuine Vietnamese flavors.",
   "home.ownerDescription2": "I started developing recipes and wanted to offer Vietnamese flavors for Finns to taste.",
@@ -14,8 +14,8 @@
   "footer.address.line": "20100 Turku, Finland",
 
   "nav.home": "Home",
+  "nav.hour": "Order",
   "nav.menu": "Menu",
   "nav.about": "About",
-  "nav.contact": "Contact",
-  "nav.hour": "Operating Hours"
+  "nav.contact": "Contact"
 }
