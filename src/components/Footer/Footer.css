@@ -27,6 +27,11 @@ footer a {
   color: #ffc27d;
 }
 
+.links li {
+  list-style: none;
+  margin-bottom: 100px;
+}
+
 .footer_name {
   font-size: 2rem;
   font-family: "Poppins", sans-serif;
