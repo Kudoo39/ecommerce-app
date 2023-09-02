@@ -23,5 +23,14 @@
   "subscriptionForm.description": "Subscribe to receive notifications about new restaurant offers.",
   "subscriptionForm.placeholder": "Your Email...",
   "subscriptionForm.buttonText": "Subscribe",
-  "subscriptionForm.thankYou": "Thank you for your subscription!"
+  "subscriptionForm.thankYou": "Thank you for your subscription!",
+
+  "hour.title": "Operating Hours and Order Availability",
+  "hour.operatingHoursText": "Saigon Sandwich Bakery operates through the following hours for orders on Wolt and Foodora:",
+  "hour.operatingDays1": "Wednesday to Saturday:",
+  "hour.operatingDays2": "Sunday, Monday, and Tuesday:",
+  "hour.operatingHours": "Closed",
+  "hour.orderAvailabilityText": "You can place orders during these hours on the following platforms:",
+  "hour.orderOnWolt": "Order on Wolt",
+  "hour.orderOnFoodora": "Order on Foodora"
 }

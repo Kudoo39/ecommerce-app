@@ -23,5 +23,14 @@
   "subscriptionForm.description": "Tilaa ilmoitukset uusista ravintolan tarjouksista.",
   "subscriptionForm.placeholder": "Sähköpostiosoitteesi...",
   "subscriptionForm.buttonText": "Tilaa",
-  "subscriptionForm.thankYou": "Kiitos tilauksestasi!"
+  "subscriptionForm.thankYou": "Kiitos tilauksestasi!",
+
+  "hour.title": "Aukioloajat ja tilausmahdollisuudet",
+  "hour.operatingHoursText": "Saigon Sandwich Bakery toimii seuraavina aikoina tilauksille Woltissa ja Foodorassa:",
+  "hour.operatingDays1": "Keskiviiko, Torstai, Perjantai ja Lauantai:",
+  "hour.operatingDays2": "Sunnuntai, maanantai ja tiistai:",
+  "hour.operatingHours": "Suljettu",
+  "hour.orderAvailabilityText": "Voit tehdä tilauksia näinä aikoina seuraavilla alustoilla:",
+  "hour.orderOnWolt": "Tilaa Woltissa",
+  "hour.orderOnFoodora": "Tilaa Foodorassa"
 }

@@ -7,17 +7,10 @@ import staff from "../../assets/staff.jpg";
 
 const corporateLeadership = [
   {
-    name: "Erik Isokorpi",
-    position: "CEO",
-    description:
-      "As the Chief Executive Officer (CEO), Erik Isokorpi plays a pivotal role in steering the company towards success. With a strategic vision and decisive leadership, Erik is responsible for not only managing the day-to-day operations of the store but also charting the course for its future direction. By fostering innovation and maintaining a strong market presence, Erik ensures that the store remains at the forefront of the industry.",
-    image: ceo,
-  },
-  {
     name: "Kim Huong Nguyen",
-    position: "Executive Chef",
+    position: "Founder",
     description:
-      "As the Executive Chef, Kim Huong Nguyen wields her culinary expertise to orchestrate the gastronomic experiences that define the store. Her responsibilities span the entire spectrum of food management, from meticulously selecting the finest ingredients to crafting delectable dishes that delight the palate. With a keen eye for flavor and presentation, Kim Huong ensures that every meal served is a masterpiece in taste and aesthetics.",
+      "Kim Huong Nguyen wields her culinary expertise to orchestrate the gastronomic experiences that define the store. Her responsibilities span the entire spectrum of food management, from meticulously selecting the finest ingredients to crafting delectable dishes that delight the palate. With a keen eye for flavor and presentation, Kim Huong ensures that every meal served is a masterpiece in taste and aesthetics.",
     image: maker,
   },
   {

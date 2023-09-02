@@ -2,24 +2,24 @@ import React from "react";
 import wolt from "../../assets/wolt.jpg";
 import foodora from "../../assets/foodora.jpg";
 import "./Hour.css";
+import { useTranslation } from "react-i18next";
 
 const Hour = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="hour-container">
-      <h2>Operating Hours and Order Availability</h2>
-      <p>
-        Saigon Sandwich Bakery operates through the following hours for orders
-        on Wolt and Foodora:
-      </p>
+      <h2>{t("hour.title")}</h2>
+      <p>{t("hour.operatingHoursText")}</p>
       <ul>
         <li>
-          Wednesday to Saturday: <h6>11:00 AM - 5:30 PM</h6>
+          {t("hour.operatingDays1")} <h6>11:00 AM - 5:30 PM</h6>
         </li>
         <li>
-          Sunday, Monday and Tuesday: <h6> Closed</h6>
+          {t("hour.operatingDays2")} <h6>{t("hour.operatingHours")}</h6>
         </li>
       </ul>
-      <p>You can place orders during these hours on the following platforms:</p>
+      <p>{t("hour.orderAvailabilityText")}</p>
       <ul className="logo-links">
         <li>
           <a
@@ -29,7 +29,7 @@ const Hour = () => {
             className="logo-link wolt-logo"
           >
             <img src={wolt} alt="Wolt Logo" />
-            <span>Order on Wolt</span>
+            <span>{t("hour.orderOnWolt")}</span>
           </a>
         </li>
         <li>
@@ -40,7 +40,7 @@ const Hour = () => {
             className="logo-link foodora-logo"
           >
             <img src={foodora} alt="Foodora Logo" />
-            <span>Order on Foodora</span>
+            <span>{t("hour.orderOnFoodora")}a</span>
           </a>
         </li>
       </ul>
