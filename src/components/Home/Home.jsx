@@ -4,12 +4,14 @@ import img2 from "../../assets/pho.jpg";
 import img3 from "../../assets/owner.jpg";
 import "./Home.css";
 import { useTranslation } from "react-i18next";
+import SubscriptionForm from "../SubscriptionForm";
 
 const Home = () => {
   const { t } = useTranslation();
 
   return (
     <div id="home">
+      <SubscriptionForm />
       <div className="home_container">
         <article className="banhmi_item">
           <img src={img1} alt="photo about banhmi" />

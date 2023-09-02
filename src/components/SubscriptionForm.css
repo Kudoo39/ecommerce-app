@@ -1,0 +1,46 @@
+.subscription-form-container {
+  padding: 20px;
+  border: 3px solid black;
+  border-radius: 15px;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto 60px;
+}
+.subscription-form-container:hover {
+  border: 3px solid #f0950d;
+}
+
+.subscription-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.subscription-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.subscription-input {
+  width: 40%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+}
+
+.subscription-button {
+  width: auto;
+  background-color: #ffc27d;
+  color: #000000;
+  font-weight: 700;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  text-overflow: ellipsis;
+}
+
+.subscription-button:hover {
+  background-color: #f96c00;
+  color: #ffffff;
+}

@@ -15,7 +15,6 @@ import Hour from "./components/Hour/Hour";
 import Footer from "./components/Footer/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import { useTranslation } from "react-i18next";
 
 const App = () => {
   return (
