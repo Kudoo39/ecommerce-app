@@ -49,5 +49,18 @@
   "feedback.customers2": "Crisp baguette and perfect toppings. I could eat it every day! You should also try the Vietnamese iced coffee. ❤",
   "feedback.customers3": "Great rolls, just the right amount of heat and spices of course, you can get exactly what you want by asking. Be prepared to wait in line.",
   "feedback.customers4": "It's been almost every day since I found it, if you want authentic vietnamese food, go there. I love Bánh mì and freshly baked bread. (I'm walking there right now to get the feed)",
-  "feedback.customers5": "Excellent Bahn mi, delicious flavors and friendly staff! ! Never disappoints! Highly recommended!"
+  "feedback.customers5": "Excellent Bahn mi, delicious flavors and friendly staff! ! Never disappoints! Highly recommended!",
+
+  "contact.title": "Contact Us",
+  "contact.description": "If you have any questions or feedback, feel free to reach out to us!",
+  "contact.name": "Name",
+  "contact.typename": "Type your name...",
+  "contact.email": "Email",
+  "contact.typeemail": "Type your email...",
+  "contact.phone": "Phone Number",
+  "contact.typephone": "Type your phone number...",
+  "contact.require": "(Not Require)",
+  "contact.message": "Message",
+  "contact.typemessage": "Type your message...",
+  "contact.submit": "Submit"
 }

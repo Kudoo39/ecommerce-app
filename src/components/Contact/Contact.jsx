@@ -1,8 +1,11 @@
 import React, { useState, useRef } from "react";
 import emailjs from "emailjs-com";
 import "./Contact.css";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
+  const { t } = useTranslation();
+
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
@@ -26,10 +29,8 @@ const Contact = () => {
 
   return (
     <div className="container contact-container">
-      <h2>Contact Us</h2>
-      <p className="contact-description">
-        If you have any questions or feedback, feel free to reach out to us!
-      </p>
+      <h2>{t("contact.title")}</h2>
+      <p className="contact-description">{t("contact.description")}</p>
       <form ref={form} onSubmit={sendEmail} className="contact-form">
         <div className="mb-3">
           <label
@@ -37,10 +38,10 @@ const Contact = () => {
             className="form-label"
             style={{ fontWeight: "bold" }}
           >
-            Name
+            {t("contact.name")}
           </label>
           <input
-            placeholder="Type your name..."
+            placeholder={t("contact.typename")}
             type="text"
             className="form-control"
             id="name"
@@ -56,10 +57,10 @@ const Contact = () => {
             className="form-label"
             style={{ fontWeight: "bold" }}
           >
-            Email
+            {t("contact.email")}
           </label>
           <input
-            placeholder="Type your email..."
+            placeholder={t("contact.typeemail")}
             type="email"
             className="form-control"
             id="email"
@@ -75,10 +76,11 @@ const Contact = () => {
             className="form-label"
             style={{ fontWeight: "bold" }}
           >
-            Phone Number <em style={{ fontStyle: "italic" }}>(Not Required)</em>
+            {t("contact.phone")}{" "}
+            <em style={{ fontStyle: "italic" }}>{t("contact.require")}</em>
           </label>
           <input
-            placeholder="Type your phone number..."
+            placeholder={t("contact.typephone")}
             className="form-control"
             id="phone"
             name="phone"
@@ -92,10 +94,10 @@ const Contact = () => {
             className="form-label"
             style={{ fontWeight: "bold" }}
           >
-            Message
+            {t("contact.message")}
           </label>
           <textarea
-            placeholder="Type your message..."
+            placeholder={t("contact.typemessage")}
             className="form-control"
             id="message"
             name="message"
@@ -106,7 +108,7 @@ const Contact = () => {
           ></textarea>
         </div>
         <button type="submit" className="contact-button">
-          Submit
+          {t("contact.submit")}
         </button>
       </form>
     </div>

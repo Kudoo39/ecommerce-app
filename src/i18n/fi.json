@@ -49,5 +49,18 @@
   "feedback.customers2": "Rapea patonki ja täydelliset täytteet. Voisin syödä joka päivä! Kannattaa testata myös vietnamese iced coffee. ❤",
   "feedback.customers3": "Mahtavat sämpylät, just sopivasti tulisuutta ja mausteita (toki pyytämällä saa juuri sellaisen kuin haluaa. Varaudu odottamaan jos jonoa.",
   "feedback.customers4": "On kulunut melkein joka päivä sen löytämisen jälkeen, jos haluat aitoa vietnamilaista ruokaa, mene sinne. Rakastan Bánh mìä ja vastaleivottua leipää. (Kävelen siellä juuri nyt saadakseen syötteen)",
-  "feedback.customers5": "Erinomainen Bahn mi, herkulliset maut ja ystävällinen henkilökunta! ! Ei koskaan petä! Erittäin suositeltavaa!"
+  "feedback.customers5": "Erinomainen Bahn mi, herkulliset maut ja ystävällinen henkilökunta! ! Ei koskaan petä! Erittäin suositeltavaa!",
+
+  "contact.title": "Ota meihin yhteyttä",
+  "contact.description": "Jos sinulla on kysyttävää tai palautetta, ota rohkeasti yhteyttä!",
+  "contact.name": "Nimi",
+  "contact.typename": "Kirjoita nimesi...",
+  "contact.email": "Sähköposti",
+  "contact.typeemail": "Kirjoita sähköpostiosoitteesi...",
+  "contact.phone": "Puhelinnumero",
+  "contact.typephone": "Kirjoita puhelinnumerosi...",
+  "contact.require": "(Ei vaadi)",
+  "contact.message": "Viesti",
+  "contact.typemessage": "Kirjoita viestisi...",
+  "contact.submit": "Lähetä"
 }
