@@ -1,32 +1,35 @@
 import React from "react";
 import img from "../../assets/bao.jpg";
 import "./Bao.css";
+import { useTranslation } from "react-i18next";
 
 const Bao = () => {
+  const { t } = useTranslation();
+
   const menuItems = [
     {
       id: 1,
-      name: "1. Grilled Meat Bao",
+      name: t("bao.names1"),
       price: "€5.40",
     },
     {
       id: 2,
-      name: "2. Beef Satay Chili Bao",
+      name: t("bao.names2"),
       price: "€5.90",
     },
     {
       id: 3,
-      name: "3. Curry Chicken Bao",
+      name: t("bao.names3"),
       price: "€5.40",
     },
     {
       id: 4,
-      name: "4. Vegan Bao",
+      name: t("bao.names4"),
       price: "€4.95",
     },
     {
       id: 5,
-      name: "5. Grilled Chicken Bao",
+      name: t("bao.names5"),
       price: "€5.40",
     },
   ];
@@ -39,7 +42,9 @@ const Bao = () => {
       <div className="bao-menu-items">
         {menuItems.map((item) => (
           <div className="bao-menu-item" key={item.id}>
-            <h2>{item.name}</h2>
+            <h2>
+              {item.id}. {item.name}
+            </h2>
             <h4>{item.price}</h4>
           </div>
         ))}

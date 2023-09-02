@@ -62,5 +62,52 @@
   "contact.require": "(Ei vaadi)",
   "contact.message": "Viesti",
   "contact.typemessage": "Kirjoita viestisi...",
-  "contact.submit": "Lähetä"
+  "contact.submit": "Lähetä",
+
+  "menu.main": "Päävalikko",
+  "menu.bao": "Bao",
+  "menu.salad": "Salaatti",
+  "menu.drink": "Juoma",
+
+  "main.names1": "Saigon Original",
+  "main.names2": "Saigon Grilliliha",
+  "main.names3": "Härkä Satay Chili",
+  "main.names4": "Saigon Kanacurry",
+  "main.names5": "BBQ Mausteliha",
+  "main.names6": "Vegaani",
+  "main.names7": "Kanaleike",
+  "main.names8": "Saigon Grillikana",
+  "main.names9": "Hot Pork Belly",
+
+  "main.descriptions1": "Valkosipuli siivu maustettua possua, paté, kanan siivu, kurkku, retiisi, korianteri, sipuli, porkkana, soija, talon kastike, majoneesi, chili.",
+  "main.descriptions2": "Sitruunaruoho, grillattua possua, kurkku, retiisi, porkkana, korianteri, soija, talon kastike, majoneesi, chili.",
+  "main.descriptions3": "Paistettu naudanliha satay, kurkku, retiisi, porkkana, sipuli, korianteri, talon kastike, chili, majoneesi.",
+  "main.descriptions4": "Kanaa currykastikkeessa, curry, kurkku, retiisi, porkkana, soija, sipuli, chili, talon kastike, korianteri, majoneesi.",
+  "main.descriptions5": "Possun grillattu liha, kurkku, retiisi, porkkana, soija, chili, korianteri, sipuli, talon kastike, majoneesi.",
+  "main.descriptions6": "Maustettua seitania, kurkku, retiisi, porkkana, soija, korianteri, sipuli, talon kastike, chili, majoneesi.",
+  "main.descriptions7": "Kanaa, paté, kurkku, retiisi, porkkana, soija, chili, sipuli, korianteri, talon kastike, majoneesi.",
+  "main.descriptions8": "Grillattua kanaa, kurkku, retiisi, porkkana, soija, chili, korianteri, sipuli, talon kastike, majoneesi.",
+  "main.descriptions9": "Paahdettua possunvatsaa, satay, kurkku, retiisi, porkkana, soija, chili, korianteri, sipuli, talon kastike, majoneesi.",
+
+  "bao.names1": "Grilliliha Bao",
+  "bao.names2": "Härkä satay chili Bao",
+  "bao.names3": "Kanacurry Bao",
+  "bao.names4": "Vegaani Bao",
+  "bao.names5": "Grillikana Bao",
+
+  "salad.names1": "Grilliha salaatti",
+  "salad.names2": "Härkä satay chili salaatti",
+  "salad.names3": "Kanacurry salaatti",
+  "salad.names4": "Vegaani salaatti",
+  "salad.names5": "Grillikana salaatti",
+
+  "drink.cafe": "Vietnamilainen jääkahvi",
+  "drink.water": "Vesipullo 0.5l",
+
+  "drink.descriptions1": "Perinteinen hiilihappojuoma, joka tunnetaan virkistävästä ja erottuvasta maustaan.",
+  "drink.descriptions2": "Vähäkalorinen vaihtoehto, joka säilyttää Coca-Colan klassisen maun.",
+  "drink.descriptions3": "Ihana herkku, joka yhdistää appelsiinin raikkauden.",
+  "drink.descriptions4": "Pepsi on suosittu hiilihappojuoma, joka tunnetaan ainutlaatuisesta maustaan.",
+  "drink.descriptions5": "Vietnamilainen jäätkahvi on herkullinen ja vahva kahvinautinto, joka valmistetaan valuttamalla runsaasti keitettyä kahvia jään yli, makeutettuna tiivistetyllä maidolla.",
+  "drink.descriptions6": "Sammuta janoasi puhtaalla virkistävällä juomalla ja varmista, että pysyt nesteytettynä."
 }

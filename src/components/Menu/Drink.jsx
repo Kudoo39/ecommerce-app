@@ -6,58 +6,56 @@ import img3 from "../../assets/jaffa.jpg";
 import img4 from "../../assets/pepsi.jpg";
 import img5 from "../../assets/coffee1.jpg";
 import img6 from "../../assets/water.jpg";
-
-const menuItems = [
-  {
-    id: 1,
-    name: "Coca Cola",
-    description:
-      "The Classic Carbonated Soft Drink Renowned for Its Refreshing and Distinctive Flavor.",
-    price: "€1.80",
-    image: img1,
-  },
-  {
-    id: 2,
-    name: "Coca Cola Zero",
-    description:
-      "A Low-Calorie Alternative That Retains the Classic Taste of Coca-Cola.",
-    price: "€1.80",
-    image: img2,
-  },
-  {
-    id: 3,
-    name: "Jaffa",
-    description: "A Delightful Treat Blending the Zesty Goodness of Orange.",
-    price: "€1.80",
-    image: img3,
-  },
-  {
-    id: 4,
-    name: "Pepsi MAX",
-    description:
-      "Pepsi is a popular carbonated soft drink recognized for its unique flavor.",
-    price: "€1.80",
-    image: img4,
-  },
-  {
-    id: 5,
-    name: "Vietnamese Iced Coffee",
-    description:
-      "Vietnamese Iced Coffee is a delicious and strong coffee treat made by dripping richly brewed coffee over ice, sweetened with condensed milk.",
-    price: "€4.95",
-    image: img5,
-  },
-  {
-    id: 6,
-    name: "Water 0.5l",
-    description:
-      "Quench your thirst with pure refreshment, ensure you stay hydrated.",
-    price: "€1.60",
-    image: img6,
-  },
-];
+import { useTranslation } from "react-i18next";
 
 const Drink = () => {
+  const { t } = useTranslation();
+
+  const menuItems = [
+    {
+      id: 1,
+      name: "Coca Cola",
+      description: t("drink.descriptions1"),
+      price: "€1.80",
+      image: img1,
+    },
+    {
+      id: 2,
+      name: "Coca Cola Zero",
+      description: t("drink.descriptions2"),
+      price: "€1.80",
+      image: img2,
+    },
+    {
+      id: 3,
+      name: "Jaffa",
+      description: t("drink.descriptions3"),
+      price: "€1.80",
+      image: img3,
+    },
+    {
+      id: 4,
+      name: "Pepsi MAX",
+      description: t("drink.descriptions4"),
+      price: "€1.80",
+      image: img4,
+    },
+    {
+      id: 5,
+      name: t("drink.cafe"),
+      description: t("drink.descriptions5"),
+      price: "€4.95",
+      image: img5,
+    },
+    {
+      id: 6,
+      name: t("drink.water"),
+      description: t("drink.descriptions6"),
+      price: "€1.60",
+      image: img6,
+    },
+  ];
+
   return (
     <div className="drink-menu-container">
       <div className="drink-menu">

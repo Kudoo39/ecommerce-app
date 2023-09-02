@@ -62,5 +62,52 @@
   "contact.require": "(Not Require)",
   "contact.message": "Message",
   "contact.typemessage": "Type your message...",
-  "contact.submit": "Submit"
+  "contact.submit": "Submit",
+
+  "menu.main": "Main",
+  "menu.bao": "Bao",
+  "menu.salad": "Salad",
+  "menu.drink": "Drink",
+
+  "main.names1": "Saigon Original Patee",
+  "main.names2": "Saigon Grilled Meat",
+  "main.names3": "Beef Satay Chili",
+  "main.names4": "Saigon Curry Chicken",
+  "main.names5": "BBQ Seasoned Meat",
+  "main.names6": "Vegan",
+  "main.names7": "Chicken Cutlet",
+  "main.names8": "Saigon Grilled Chicken",
+  "main.names9": "Hot Pork Belly",
+
+  "main.descriptions1": "Garlic Slice of Seasoned Pork, Pate, Chicken Slice, Cucumber, Radish, Coriander, Onion, Carrot, Soy, House Sauce, Mayonnaise, Chili.",
+  "main.descriptions2": "Lemongrass, Grilled Pork, Cucumber, Radish, Carrot, Coriander, Soy, House Sauce, Mayonnaise, Chili.",
+  "main.descriptions3": "Fried Beef Satey, Cucumber, Radish, Carrot, Onion, Coriander, House Sauce, Chili, Mayonnaise.",
+  "main.descriptions4": "Curry Chicken, Curry, Cucumber, Radish, Carrot, Soy, Onion, Chili, House Sauce, Coriander, Mayonnaise.",
+  "main.descriptions5": "Pork BBQ Meat, Cucumber, Radish, Carrot, Soy, Chili, Coriander, Onion, House Sauce, Mayonnaise.",
+  "main.descriptions6": "Seasoned Seitan, Cucumber, Radish, Carrot, Soy, Coriander, Onion, House Sauce, Chili, Mayonnaise.",
+  "main.descriptions7": "Chicken, Pate, Cucumber, Radish, Carrot, Soy, Chili, Onion, Coriander, House Sauce, Mayonnaise.",
+  "main.descriptions8": "Grilled Chicken, Cucumber, Radish, Carrot, Soy, Chili, Coriander, Onion, House Sauce, Mayonnaise.",
+  "main.descriptions9": "Roasted Pork Belly, Satay, Cucumber, Radish, Carrot, Soybean, Chili, Coriander, Onion, House Sauce, Mayonnaise.",
+
+  "bao.names1": "Grilled Meat Bao",
+  "bao.names2": "Beef Satay Chili Bao",
+  "bao.names3": "Curry Chicken Bao",
+  "bao.names4": "Vegan Bao",
+  "bao.names5": "Grilled Chicken Bao",
+
+  "salad.names1": "Grilled Meat Salad",
+  "salad.names2": "Beef Satay Chili Salad",
+  "salad.names3": "Curry Chicken Salad",
+  "salad.names4": "Vegan Salad",
+  "salad.names5": "Grilled Chicken Salad",
+
+  "drink.cafe": "Vietnamese Iced Coffee",
+  "drink.water": "Water 0.5l",
+
+  "drink.descriptions1": "The Classic Carbonated Soft Drink Renowned for Its Refreshing and Distinctive Flavor.",
+  "drink.descriptions2": "A Low-Calorie Alternative That Retains the Classic Taste of Coca-Cola.",
+  "drink.descriptions3": "A Delightful Treat Blending the Zesty Goodness of Orange.",
+  "drink.descriptions4": "Pepsi is a popular carbonated soft drink recognized for its unique flavor.",
+  "drink.descriptions5": "Vietnamese Iced Coffee is a delicious and strong coffee treat made by dripping richly brewed coffee over ice, sweetened with condensed milk.",
+  "drink.descriptions6": "Quench your thirst with pure refreshment, ensure you stay hydrated."
 }

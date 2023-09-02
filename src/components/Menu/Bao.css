@@ -28,6 +28,10 @@
   border-bottom: 1px solid #ccc;
 }
 
+.bao-menu-item h2 {
+  text-align: left;
+}
+
 @media (max-width: 768px) {
   .bao-menu-container {
     flex-direction: column;
