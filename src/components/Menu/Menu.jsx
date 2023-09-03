@@ -17,16 +17,16 @@ const Menu = () => {
       <div className="menu-top">
         <h1>Menu</h1>
         <div className="menu-nav">
-          <Link to="/menu">{t("menu.main")}</Link>
-          <Link to="/menu/bao">{t("menu.bao")}</Link>
-          <Link to="/menu/salad">{t("menu.salad")}</Link>
-          <Link to="/menu/drink">{t("menu.drink")}</Link>
+          <Link to="/main">{t("menu.main")}</Link>
+          <Link to="/bao">{t("menu.bao")}</Link>
+          <Link to="/salad">{t("menu.salad")}</Link>
+          <Link to="/drink">{t("menu.drink")}</Link>
         </div>
       </div>
 
       <div className="menu">
         <Routes>
-          <Route path="/" element={<Main />} />
+          <Route path="/main" element={<Main />} />
           <Route path="/drink" element={<Drink />} />
           <Route path="/salad" element={<Salad />} />
           <Route path="/bao" element={<Bao />} />
