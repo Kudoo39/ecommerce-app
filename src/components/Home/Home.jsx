@@ -1,7 +1,7 @@
 import React from "react";
 import img1 from "../../assets/vegan.jpg";
 import img2 from "../../assets/pho.jpg";
-import img3 from "../../assets/owner.jpg";
+import img3 from "../../assets/logo.jpg";
 import "./Home.css";
 import { useTranslation } from "react-i18next";
 import SubscriptionForm from "../SubscriptionForm";
@@ -25,7 +25,7 @@ const Home = () => {
           <p>{t("home.phoDescription")}</p>
         </article>
         <article className="banhmi_item">
-          <img id="owner" src={img3} alt="photo about the owner" />
+          <img id="owner" src={img3} alt="photo about the logo" />
           <h3>Kim Huong Nguyen</h3>
           <p>{t("home.ownerDescription1")}</p>
           <p>{t("home.ownerDescription2")}</p>

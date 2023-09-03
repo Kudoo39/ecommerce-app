@@ -2,8 +2,8 @@ import React from "react";
 import "./About.css";
 import img from "../../assets/store.jpg";
 import ceo from "../../assets/ceo.jpg";
-import maker from "../../assets/owner.jpg";
-import staff from "../../assets/staff.jpg";
+import maker from "../../assets/logo.jpg";
+import staff from "../../assets/logo.jpg";
 import { useTranslation } from "react-i18next";
 
 const About = () => {
