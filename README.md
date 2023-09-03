@@ -11,6 +11,12 @@ Welcome to the Restaurant App repository! This project is a practical web applic
 - User-friendly interface for a smooth ordering experience.
 - [Live Demo](https://kudoo39.github.io/restaurant-app)
 
+## Official Website
+
+Visit the official Saigon Sandwich Bakery website to experience the Restaurant App and explore menu offerings.
+
+[Official Website - Saigon Sandwich Bakery](https://banhmisaigon.netlify.app)
+
 ## Installation and Usage
 
 1. Clone the repository: `git clone https://github.com/Kudoo39/restaurant-app.git`
