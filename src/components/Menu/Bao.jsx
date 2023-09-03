@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../assets/bao.jpg";
+import img from "../../assets/bao3.jpg";
 import "./Bao.css";
 import { useTranslation } from "react-i18next";
 
