@@ -6,12 +6,14 @@ import Salad from "./Salad";
 import Main from "./Main";
 import "./Menu.css";
 import { useTranslation } from "react-i18next";
+import SubscriptionForm from "../SubscriptionForm";
 
 const Menu = () => {
   const { t } = useTranslation();
 
   return (
     <div className="menu-container">
+      <SubscriptionForm />
       <div className="menu-top">
         <h1>Menu</h1>
         <div className="menu-nav">
