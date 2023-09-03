@@ -26,7 +26,7 @@ const Menu = () => {
 
       <div className="menu">
         <Routes>
-          <Route path="/main" element={<Main />} />
+          <Route path="/*" element={<Main />} />
           <Route path="/drink" element={<Drink />} />
           <Route path="/salad" element={<Salad />} />
           <Route path="/bao" element={<Bao />} />
