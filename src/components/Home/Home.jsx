@@ -1,7 +1,7 @@
 import React from "react";
 import img1 from "../../assets/vegan.jpg";
 import img2 from "../../assets/pho.jpg";
-import img3 from "../../assets/logo.jpg";
+import img3 from "../../assets/logo1.jpg";
 import "./Home.css";
 import { useTranslation } from "react-i18next";
 import SubscriptionForm from "../SubscriptionForm";
