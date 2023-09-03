@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "../../assets/background7.jpg";
+import img1 from "../../assets/anna.jpg";
 import "./Header.css";
 import { useTranslation } from "react-i18next";
 

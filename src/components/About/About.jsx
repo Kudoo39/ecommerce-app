@@ -5,6 +5,7 @@ import ceo from "../../assets/ceo.jpg";
 import maker from "../../assets/logo.jpg";
 import staff from "../../assets/logo.jpg";
 import { useTranslation } from "react-i18next";
+import SubscriptionForm from "../SubscriptionForm";
 
 const About = () => {
   const { t } = useTranslation();
@@ -26,6 +27,7 @@ const About = () => {
 
   return (
     <div className="about-container">
+      <SubscriptionForm />
       <h1 className="about-heading">{t("about.title")}</h1>
       <div className="about-hstack">
         <img src={img} className="about-photo" />

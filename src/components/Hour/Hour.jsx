@@ -3,12 +3,14 @@ import wolt from "../../assets/wolt.jpg";
 import foodora from "../../assets/foodora.jpg";
 import "./Hour.css";
 import { useTranslation } from "react-i18next";
+import SubscriptionForm from "../SubscriptionForm";
 
 const Hour = () => {
   const { t } = useTranslation();
 
   return (
     <div className="hour-container">
+      <SubscriptionForm />
       <h2>{t("hour.title")}</h2>
       <p>{t("hour.operatingHoursText")}</p>
       <ul>

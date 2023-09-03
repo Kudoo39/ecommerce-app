@@ -22,13 +22,13 @@ const Nav = () => {
       <div className="hstack-nav">
         <ul className={`nav-list ${isNavOpen ? "open" : ""}`}>
           <Link to="/" onClick={closeNav}>
-            {t("nav.home")}
+            {t("nav.menu")}
           </Link>
           <Link to="/hour" onClick={closeNav}>
             {t("nav.hour")}
           </Link>
-          <Link to="/menu" onClick={closeNav}>
-            {t("nav.menu")}
+          <Link to="/home" onClick={closeNav}>
+            {t("nav.home")}
           </Link>
           <Link to="/about" onClick={closeNav}>
             {t("nav.about")}
