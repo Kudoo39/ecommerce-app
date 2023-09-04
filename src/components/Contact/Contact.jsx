@@ -10,7 +10,12 @@ const Contact = () => {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
+  const [showThankYou, setShowThankYou] = useState(false);
   const form = useRef();
+
+  const handleInput = (e) => {
+    (e) => setPhone(e.target.value);
+  };
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -25,6 +30,7 @@ const Contact = () => {
     setEmail("");
     setPhone("");
     setMessage("");
+    setShowThankYou(true);
   };
 
   return (
@@ -47,7 +53,10 @@ const Contact = () => {
             id="name"
             name="name"
             value={name}
-            onChange={(e) => setName(e.target.value)}
+            onChange={(e) => {
+              setName(e.target.value);
+              setShowThankYou(false);
+            }}
             required
           />
         </div>
@@ -111,6 +120,9 @@ const Contact = () => {
           {t("contact.submit")}
         </button>
       </form>
+      {showThankYou && (
+        <h4 style={{ textAlign: "center" }}>{t("contact.thankYou")}</h4>
+      )}
     </div>
   );
 };

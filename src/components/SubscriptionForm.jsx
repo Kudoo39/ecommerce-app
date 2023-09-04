@@ -7,10 +7,12 @@ const SubscriptionForm = () => {
   const { t } = useTranslation();
 
   const [email, setEmail] = useState("");
+  const [showThankYou, setShowThankYou] = useState(false);
   const form = useRef();
 
   const handleEmailChange = (e) => {
     setEmail(e.target.value);
+    setShowThankYou(false);
   };
 
   const handleSubmit = (e) => {
@@ -23,7 +25,7 @@ const SubscriptionForm = () => {
       "vRHyi9tZzBV2Fg8hN"
     );
     setEmail("");
-    alert(t("subscriptionForm.thankYou"));
+    setShowThankYou(true);
   };
 
   return (
@@ -41,11 +43,13 @@ const SubscriptionForm = () => {
           name="email"
           value={email}
           onChange={handleEmailChange}
+          required
         />
         <button className="subscription-button" type="submit">
           {t("subscriptionForm.buttonText")}
         </button>
       </form>
+      {showThankYou && <p>{t("subscriptionForm.thankYou")}</p>}
     </div>
   );
 };
