@@ -2,14 +2,19 @@
   padding-top: 100px;
 }
 
+.newsfeed {
+  text-align: center;
+  margin-top: -35px;
+}
+
 .facebook-post {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 600px;
   text-align: center;
-  margin-top: -50px;
   margin-bottom: 10px;
+  margin-top: -20px;
 }
 
 .facebook-post iframe {
@@ -69,5 +74,17 @@
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
+  }
+}
+
+@media (max-width: 650px) {
+  .facebook-post iframe {
+    border: none;
+    overflow: hidden;
+    width: 300px;
+    height: 555px;
+    background: white;
+    border-radius: 10px;
+    border: 2px solid black;
   }
 }

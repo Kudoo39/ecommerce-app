@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Route, Routes, Link } from "react-router-dom";
 import Bao from "./Bao";
 import Drink from "./Drink";
@@ -10,16 +10,24 @@ import SubscriptionForm from "../SubscriptionForm";
 
 const Menu = () => {
   const { t } = useTranslation();
+  const [facebookSrc, setFacebookSrc] = useState(
+    "https://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2fsaigonbakeryturku&width=500&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=555"
+  );
+
+  useEffect(() => {
+    if (window.innerWidth <= 650) {
+      setFacebookSrc(
+        "https://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2fsaigonbakeryturku&width=300&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=555"
+      );
+    }
+  }, []);
 
   return (
     <div className="menu-container">
       <SubscriptionForm />
+      <h4 className="newsfeed">New Update</h4>
       <div className="facebook-post">
-        <iframe
-          src="https://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2fsaigonbakeryturku&width=500&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=555"
-          scrolling="yes"
-          frameBorder="0"
-        ></iframe>
+        <iframe src={facebookSrc} scrolling="yes" frameBorder="0"></iframe>
       </div>
       <div className="menu-top">
         <h1>Menu</h1>
