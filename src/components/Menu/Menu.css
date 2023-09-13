@@ -2,6 +2,26 @@
   padding-top: 100px;
 }
 
+.facebook-post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  text-align: center;
+  margin-top: -50px;
+  margin-bottom: 10px;
+}
+
+.facebook-post iframe {
+  border: none;
+  overflow: hidden;
+  width: 500px;
+  height: 555px;
+  background: white;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
 .menu-container h1 {
   font-size: 2rem;
   margin-bottom: 10px;
