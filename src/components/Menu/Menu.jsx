@@ -25,7 +25,7 @@ const Menu = () => {
   return (
     <div className="menu-container">
       <SubscriptionForm />
-      <h4 className="newsfeed">New Update</h4>
+      <h4 className="newsfeed">{t("menu.news")}</h4>
       <div className="facebook-post">
         <iframe src={facebookSrc} scrolling="yes" frameBorder="0"></iframe>
       </div>
