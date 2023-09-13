@@ -15,11 +15,25 @@ const Menu = () => {
   );
 
   useEffect(() => {
-    if (window.innerWidth <= 650) {
-      setFacebookSrc(
-        "https://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2fsaigonbakeryturku&width=300&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=555"
-      );
-    }
+    const updateFacebookSrc = () => {
+      if (window.innerWidth <= 650) {
+        setFacebookSrc(
+          "https://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2fsaigonbakeryturku&width=300&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=555"
+        );
+      } else {
+        setFacebookSrc(
+          "https://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2fsaigonbakeryturku&width=500&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=555"
+        );
+      }
+    };
+
+    updateFacebookSrc();
+
+    window.addEventListener("resize", updateFacebookSrc);
+
+    return () => {
+      window.removeEventListener("resize", updateFacebookSrc);
+    };
   }, []);
 
   return (
