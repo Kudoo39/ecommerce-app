@@ -24,7 +24,8 @@ const Footer = () => {
         <p>
           Aninkaistenkatu 16, <br />
           {t("footer.address.description")} <br />
-          {t("footer.address.line")}
+          {t("footer.address.line")} <br />
+          {t("footer.address.open")}
         </p>
 
         <p>
