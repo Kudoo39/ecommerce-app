@@ -23,6 +23,7 @@ const Footer = () => {
         <h3>{t("footer.address.title")}</h3>
         <p>
           Aninkaistenkatu 16, <br />
+          {t("footer.address.description")} <br />
           {t("footer.address.line")}
         </p>
 
@@ -71,7 +72,9 @@ const Footer = () => {
         </a>
       </div>
       <div className="copyright">
-        <small>&copy; 2023 - Saigon Sandwich Bakery</small>
+        <small>
+          &copy; 2023 - Saigon Sandwich Bakery <br /> (BÁNH MÌ SAIGON)
+        </small>
       </div>
     </footer>
   );
