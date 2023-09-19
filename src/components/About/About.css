@@ -92,8 +92,8 @@ body {
 
 @media (max-width: 1324px) {
   .about-photo {
-    width: 60%;
-    height: 60%;
+    width: 70%;
+    height: 70%;
   }
 
   .about-section p {
@@ -106,8 +106,8 @@ body {
 
 @media (max-width: 1024px) {
   .about-photo {
-    width: 90%;
-    height: 90%;
+    width: 60%;
+    height: 60%;
   }
 
   .about-section p {
@@ -170,9 +170,6 @@ body {
     background-color: #f7f7f7;
   }
 
-  .about-container {
-    padding: 20px;
-  }
   .about-heading {
     font-size: 24px;
     margin-bottom: 15px;
