@@ -19,6 +19,7 @@ const Footer = () => {
       <a href="" className="footer_name">
         SAIGON SANDWICH BAKERY
       </a>
+      <h2 className="footer_vn">BÁNH MÌ SAIGON</h2>
       <div className="address">
         <h3>{t("footer.address.title")}</h3>
         <p>
@@ -35,7 +36,6 @@ const Footer = () => {
           </a>
         </p>
       </div>
-
       <ul className="links">
         <li>
           <a href=""></a>
@@ -73,9 +73,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="copyright">
-        <small>
-          &copy; 2023 - Saigon Sandwich Bakery <br /> (BÁNH MÌ SAIGON)
-        </small>
+        <small>&copy; 2023 - Saigon Sandwich Bakery</small>
       </div>
     </footer>
   );

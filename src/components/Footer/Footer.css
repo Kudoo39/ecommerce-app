@@ -38,8 +38,15 @@ footer a {
   font-weight: 600;
   text-decoration: none;
 }
-
 .footer_name:hover {
+  color: #ffc27d;
+}
+
+.footer_vn {
+  margin-top: 9px;
+  color: white;
+}
+.footer_vn:hover {
   color: #ffc27d;
 }
 
