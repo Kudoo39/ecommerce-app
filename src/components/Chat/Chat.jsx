@@ -74,7 +74,7 @@ const Chat = () => {
         </ThemeProvider>
       ) : (
         <div className="chatbot-toggle" onClick={toggleChat}>
-          <h6>Saigon Sandwich Bakery</h6>
+          <img src={img} alt="Chatbot Avatar" className="chatbot-avatar" />
         </div>
       )}
     </div>
