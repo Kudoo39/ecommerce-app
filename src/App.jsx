@@ -13,6 +13,8 @@ import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Hour from "./components/Hour/Hour";
 import Footer from "./components/Footer/Footer";
+import Chat from "./components/Chat/Chat";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
@@ -21,6 +23,7 @@ const App = () => {
     <Router>
       <Nav />
       <Header />
+      <Chat />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/menu/*" element={<Menu />} />
