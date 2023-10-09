@@ -113,5 +113,13 @@
   "drink.descriptions3": "A Delightful Treat Blending the Zesty Goodness of Orange.",
   "drink.descriptions4": "Pepsi is a popular carbonated soft drink recognized for its unique flavor.",
   "drink.descriptions5": "Vietnamese Iced Coffee is a delicious and strong coffee treat made by dripping richly brewed coffee over ice, sweetened with condensed milk.",
-  "drink.descriptions6": "Quench your thirst with pure refreshment, ensure you stay hydrated."
+  "drink.descriptions6": "Quench your thirst with pure refreshment, ensure you stay hydrated.",
+
+  "chat.hello": "Hello there! How can I help?",
+  "chat.option1": "Nice to meet you!",
+  "chat.option2": "I want to order!",
+  "chat.option3": "I don't know what to eat!",
+  "chat.answer1": "Nice to meet you too :)",
+  "chat.answer2": "Sure! You can go to Order in the navigation bar, then choose Wolt or Foodora to order!",
+  "chat.answer3": "I will recommend you to try Saigon Grilled Meat, which is the best seller of our store!"
 }

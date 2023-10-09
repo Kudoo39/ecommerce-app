@@ -113,5 +113,13 @@
   "drink.descriptions3": "Ihana herkku, joka yhdistää appelsiinin raikkauden.",
   "drink.descriptions4": "Pepsi on suosittu hiilihappojuoma, joka tunnetaan ainutlaatuisesta maustaan.",
   "drink.descriptions5": "Vietnamilainen jäätkahvi on herkullinen ja vahva kahvinautinto, joka valmistetaan valuttamalla runsaasti keitettyä kahvia jään yli, makeutettuna tiivistetyllä maidolla.",
-  "drink.descriptions6": "Sammuta janoasi puhtaalla virkistävällä juomalla ja varmista, että pysyt nesteytettynä."
+  "drink.descriptions6": "Sammuta janoasi puhtaalla virkistävällä juomalla ja varmista, että pysyt nesteytettynä.",
+
+  "chat.hello": "Hei siellä! Miten voin auttaa?",
+  "chat.option1": "Hauska tavata!",
+  "chat.option2": "Haluan tilata!",
+  "chat.option3": "En tiedä mitä syödä!",
+  "chat.answer1": "Kiva tavata sinutkin :)",
+  "chat.answer2": "Varma! Voit siirtyä navigointipalkin Tilaa Kotiin ja tilata valitsemalla Wolt tai Foodora!",
+  "chat.answer3": "Suosittelen kokeilemaan Saigon Grilliliha, joka on myymälämme myydyin!"
 }

@@ -4,8 +4,11 @@ import img from "../../assets/chatbot.jpg";
 import { AiOutlineClose } from "react-icons/ai";
 import { ThemeProvider } from "styled-components";
 import "./Chat.css";
+import { useTranslation } from "react-i18next";
 
 const Chat = () => {
+  const { t } = useTranslation();
+
   const [isOpen, setIsOpen] = useState(true);
 
   const theme = {
@@ -23,32 +26,30 @@ const Chat = () => {
   const steps = [
     {
       id: "1",
-      message: "Hello there! How can I help?",
+      message: t("chat.hello"),
       trigger: "2",
     },
     {
       id: "2",
       options: [
-        { value: 1, label: "Nice to meet you!", trigger: "3" },
-        { value: 2, label: "I want to order!", trigger: "4" },
-        { value: 3, label: "I don't know what to eat!", trigger: "5" },
+        { value: 1, label: t("chat.option1"), trigger: "3" },
+        { value: 2, label: t("chat.option2"), trigger: "4" },
+        { value: 3, label: t("chat.option3"), trigger: "5" },
       ],
     },
     {
       id: "3",
-      message: "Nice to meet you too :)",
+      message: t("chat.answer1"),
       trigger: "2",
     },
     {
       id: "4",
-      message:
-        "Sure! You can go to Order in the navigation bar, then choose Wolt or Foodora to order!",
+      message: t("chat.answer2"),
       trigger: "2",
     },
     {
       id: "5",
-      message:
-        "I will recommend you to try Saigon Grilled Meat, which is the best seller of our store!",
+      message: t("chat.answer3"),
       trigger: "2",
     },
   ];
