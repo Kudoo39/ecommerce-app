@@ -14,15 +14,17 @@ import Contact from "./components/Contact/Contact";
 import Hour from "./components/Hour/Hour";
 import Footer from "./components/Footer/Footer";
 import Chat from "./components/Chat/Chat";
+import { useTranslation } from "react-i18next";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 const App = () => {
+  const { i18n } = useTranslation();
   return (
     <Router>
       <Nav />
       {/* <Header /> */}
-      <Chat />
+      <Chat key={i18n.language} />
       <Routes>
         <Route path="/*" element={<Menu />} />
         <Route path="/home/*" element={<Home />} />
