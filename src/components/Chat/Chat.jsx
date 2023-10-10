@@ -70,6 +70,7 @@ const Chat = () => {
             botAvatar={img}
             headerTitle="Saigon Sandwich Bakery"
             hideSubmitButton="true"
+            placeholder=""
           ></ChatBot>
         </ThemeProvider>
       ) : (
