@@ -13,7 +13,7 @@ const Chat = () => {
 
   const theme = {
     background: "#f5f8fb",
-    fontFamily: "Poppins",
+    fontFamily: "Poppins, sans-serif",
     headerBgColor: "#ffc27d",
     headerFontColor: "#000",
     headerFontSize: "15px",

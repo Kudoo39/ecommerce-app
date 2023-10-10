@@ -4,6 +4,7 @@ import LanguageDetector from "i18next-browser-languagedetector";
 
 import enTranslation from "./en.json";
 import fiTranslation from "./fi.json";
+import viTranslation from "./vi.json";
 
 i18n
   .use(initReactI18next)
@@ -12,6 +13,7 @@ i18n
     resources: {
       en: { translation: enTranslation },
       fi: { translation: fiTranslation },
+      vi: { translation: viTranslation },
     },
     lng: "fi",
     fallbackLng: "fi",
