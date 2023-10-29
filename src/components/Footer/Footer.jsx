@@ -4,7 +4,7 @@ import { ImFacebook } from "react-icons/im";
 import { FaTiktok } from "react-icons/fa";
 import { MdLocalShipping } from "react-icons/md";
 import { MdOutlineLocalShipping } from "react-icons/md";
-import { BsFillTelephoneFill } from "react-icons/bs";
+import { BsFillTelephoneFill, BsInstagram } from "react-icons/bs";
 import foodora from "../../assets/foodora1.jpg";
 import wolt from "../../assets/wolt1.jpg";
 import tiktok from "../../assets/tiktok.jpg";
@@ -52,24 +52,15 @@ const Footer = () => {
           <ImFacebook />
           {/* <img src={facebook} className="facebook" /> */}
         </a>
+        <a
+          target="_blank"
+          href="https://www.instagram.com/saigonsandwichturku/"
+        >
+          <BsInstagram />
+        </a>
         <a target="_blank" href="https://www.tiktok.com/@banhmisaigonturku">
           <FaTiktok />
           {/* <img src={tiktok} className="tiktok" /> */}
-        </a>
-        <a
-          target="_blank"
-          href="https://wolt.com/en/fin/turku/restaurant/saigon-sandwich"
-        >
-          {/* <MdLocalShipping /> */}
-          <img src={wolt} className="wolt" />
-        </a>
-
-        <a
-          target="_blank"
-          href="https://www.foodora.fi/en/restaurant/s6bc/saigon-sandwich"
-        >
-          {/* <MdOutlineLocalShipping /> */}
-          <img src={foodora} className="foodora" />
         </a>
       </div>
       <div className="copyright">
