@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.css";
 import { ImFacebook } from "react-icons/im";
 import { FaTiktok } from "react-icons/fa";
-import { MdLocalShipping } from "react-icons/md";
+import { MdLocalShipping, MdOutlineMailOutline } from "react-icons/md";
 import { MdOutlineLocalShipping } from "react-icons/md";
 import { BsFillTelephoneFill, BsInstagram } from "react-icons/bs";
 import foodora from "../../assets/foodora1.jpg";
