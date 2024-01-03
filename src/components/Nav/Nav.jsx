@@ -1,47 +1,47 @@
-import React, { useState } from "react";
-import "./Nav.css";
-import { Link } from "react-router-dom";
-import { useTranslation } from "react-i18next";
-import LanguageSelector from "../../Language";
+import React, { useState } from 'react'
+import './Nav.css'
+import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
+import LanguageSelector from '../../Language'
 
 const Nav = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
-  const [isNavOpen, setIsNavOpen] = useState(false);
+  const [isNavOpen, setIsNavOpen] = useState(false)
 
   const toggleNav = () => {
-    setIsNavOpen(!isNavOpen);
-  };
+    setIsNavOpen(!isNavOpen)
+  }
 
   const closeNav = () => {
-    setIsNavOpen(false);
-  };
+    setIsNavOpen(false)
+  }
 
   return (
     <nav>
       <div className="hstack-nav">
-        <ul className={`nav-list ${isNavOpen ? "open" : ""}`}>
+        <ul className={`nav-list ${isNavOpen ? 'open' : ''}`}>
           <Link to="/" onClick={closeNav}>
-            {t("nav.menu")}
+            {t('nav.menu')}
           </Link>
           <Link to="/hour" onClick={closeNav}>
-            {t("nav.hour")}
+            {t('nav.hour')}
           </Link>
           <Link to="/home" onClick={closeNav}>
-            {t("nav.home")}
+            {t('nav.home')}
           </Link>
           <Link to="/about" onClick={closeNav}>
-            {t("nav.about")}
+            {t('nav.about')}
           </Link>
           <Link to="/contact" onClick={closeNav}>
-            {t("nav.contact")}
+            {t('nav.contact')}
+          </Link>
+          <Link to="/special" onClick={closeNav}>
+            {t('nav.special')}
           </Link>
         </ul>
 
-        <button
-          className={`nav-toggle ${isNavOpen ? "open" : ""}`}
-          onClick={toggleNav}
-        >
+        <button className={`nav-toggle ${isNavOpen ? 'open' : ''}`} onClick={toggleNav}>
           <span className="line"></span>
           <span className="line"></span>
           <span className="line"></span>
@@ -49,7 +49,7 @@ const Nav = () => {
         <LanguageSelector />
       </div>
     </nav>
-  );
-};
+  )
+}
 
-export default Nav;
+export default Nav

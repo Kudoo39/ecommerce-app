@@ -8,6 +8,7 @@ import About from './components/About/About'
 import Contact from './components/Contact/Contact'
 import Hour from './components/Hour/Hour'
 import Footer from './components/Footer/Footer'
+import Special from './components/Special/Special'
 import Chat from './components/Chat/Chat'
 import { useTranslation } from 'react-i18next'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -26,6 +27,7 @@ const App = () => {
         <Route path="/about/*" element={<About />} />
         <Route path="/contact/*" element={<Contact />} />
         <Route path="/hour/*" element={<Hour />} />
+        <Route path="/special/*" element={<Special />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
       <Footer />
