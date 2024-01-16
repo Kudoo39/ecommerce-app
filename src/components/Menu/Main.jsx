@@ -9,6 +9,8 @@ import img6 from '../../assets/vegan.jpg'
 import img7 from '../../assets/kanaleike.jpg'
 import img8 from '../../assets/grilled_chicken.jpg'
 import img9 from '../../assets/porkbelly.jpg'
+import img10 from '../../assets/muna.jpg'
+import img11 from '../../assets/lemo_harka.jpeg'
 import { useTranslation } from 'react-i18next'
 
 const Main = () => {
@@ -17,66 +19,80 @@ const Main = () => {
   const menuItems = [
     {
       id: 1,
+      name: t('main.names11'),
+      description: t('main.descriptions11'),
+      price: '€8.75',
+      image: img11
+    },
+    {
+      id: 2,
       name: t('main.names1'),
       description: t('main.descriptions1'),
       price: '€7.50',
       image: img1
     },
     {
-      id: 2,
+      id: 3,
       name: t('main.names2'),
       description: t('main.descriptions2'),
       price: '€7.85',
       image: img2
     },
     {
-      id: 3,
+      id: 4,
       name: t('main.names3'),
       description: t('main.descriptions3'),
       price: '€8.50',
       image: img3
     },
     {
-      id: 4,
+      id: 5,
       name: t('main.names4'),
       description: t('main.descriptions4'),
       price: '€7.85',
       image: img4
     },
     {
-      id: 5,
+      id: 6,
       name: t('main.names5'),
       description: t('main.descriptions5'),
       price: '€7.50',
       image: img5
     },
     {
-      id: 6,
+      id: 7,
       name: t('main.names6'),
       description: t('main.descriptions6'),
       price: '€6.95',
       image: img6
     },
     {
-      id: 7,
+      id: 8,
       name: t('main.names7'),
       description: t('main.descriptions7'),
       price: '€6.95',
       image: img7
     },
     {
-      id: 8,
+      id: 9,
       name: t('main.names8'),
       description: t('main.descriptions8'),
       price: '€7.85',
       image: img8
     },
     {
-      id: 9,
+      id: 10,
       name: t('main.names9'),
       description: t('main.descriptions9'),
       price: '€7.95',
       image: img9
+    },
+    {
+      id: 11,
+      name: t('main.names10'),
+      description: t('main.descriptions10'),
+      price: '€7.50',
+      image: img10
     }
   ]
 
