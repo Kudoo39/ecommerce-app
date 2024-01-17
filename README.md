@@ -31,10 +31,6 @@ Visit the official Saigon Sandwich Bakery website to experience the Restaurant A
 - CSS
 - React Bootstrap
 
-## Project Status
-
-The Restaurant App is currently under development. It's aimed at showcasing my skills in web development and user interface design. The project is a great opportunity to create a practical solution for restaurant customers while gaining valuable experience in building real-world applications.
-
 ---
 
 Feel free to explore the project and share your feedback. If you encounter any issues or have suggestions for improvement, please [create an issue](https://github.com/Kudoo39/restaurant-app/issues).
