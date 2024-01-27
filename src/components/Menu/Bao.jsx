@@ -1,38 +1,38 @@
-import React from "react";
-import img from "../../assets/bao3.jpg";
-import "./Bao.css";
-import { useTranslation } from "react-i18next";
+import React from 'react'
+import img from '../../assets/bao3.jpg'
+import './Bao.css'
+import { useTranslation } from 'react-i18next'
 
 const Bao = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   const menuItems = [
     {
       id: 1,
-      name: t("bao.names1"),
-      price: "€5.40",
+      name: t('bao.names1'),
+      price: '€5.50'
     },
     {
       id: 2,
-      name: t("bao.names2"),
-      price: "€5.90",
+      name: t('bao.names2'),
+      price: '€5.90'
     },
     {
       id: 3,
-      name: t("bao.names3"),
-      price: "€5.40",
+      name: t('bao.names3'),
+      price: '€5.50'
     },
     {
       id: 4,
-      name: t("bao.names4"),
-      price: "€4.95",
+      name: t('bao.names4'),
+      price: '€5.20'
     },
     {
       id: 5,
-      name: t("bao.names5"),
-      price: "€5.40",
-    },
-  ];
+      name: t('bao.names5'),
+      price: '€5.50'
+    }
+  ]
 
   return (
     <div className="bao-menu-container">
@@ -50,7 +50,7 @@ const Bao = () => {
         ))}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Bao;
+export default Bao

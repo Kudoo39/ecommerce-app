@@ -1,38 +1,38 @@
-import React from "react";
-import img from "../../assets/salad.jpg";
-import "./Salad.css";
-import { useTranslation } from "react-i18next";
+import React from 'react'
+import img from '../../assets/salad.jpg'
+import './Salad.css'
+import { useTranslation } from 'react-i18next'
 
 const Salad = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   const menuItems = [
     {
       id: 1,
-      name: t("salad.names1"),
-      price: "€8.50",
+      name: t('salad.names1'),
+      price: '€8.95'
     },
     {
       id: 2,
-      name: t("salad.names2"),
-      price: "€8.90",
+      name: t('salad.names2'),
+      price: '€9.50'
     },
     {
       id: 3,
-      name: t("salad.names3"),
-      price: "€8.50",
+      name: t('salad.names3'),
+      price: '€8.95'
     },
     {
       id: 4,
-      name: t("salad.names4"),
-      price: "€8.20",
+      name: t('salad.names4'),
+      price: '€8.50'
     },
     {
       id: 5,
-      name: t("salad.names5"),
-      price: "€8.50",
-    },
-  ];
+      name: t('salad.names5'),
+      price: '€8.95'
+    }
+  ]
 
   return (
     <div className="salad-menu-container">
@@ -50,7 +50,7 @@ const Salad = () => {
         <img src={img} alt="Photo about Salad" />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Salad;
+export default Salad
