@@ -15,7 +15,7 @@ Welcome to the Restaurant App repository! This project is a practical web applic
 
 Visit the official Saigon Sandwich Bakery website to experience the Restaurant App and explore menu offerings.
 
-[Official Website - Saigon Sandwich Bakery](https://banhmisaigon.netlify.app)
+[Official Website - Saigon Sandwich Bakery](https://saigon.fi)
 
 ## Installation and Usage
 
