@@ -64,7 +64,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="copyright">
-        <small>&copy; 2023 - Saigon Sandwich Bakery</small>
+        <small>&copy; 2025 - Saigon Sandwich Bakery</small>
       </div>
     </footer>
   );
